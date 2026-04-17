@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /paranormal/
+
+Sitemap: https://agfcsoad.pythonanywhere.com/paranormal/sitemap.xml
