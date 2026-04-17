@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /paranormal/
+Allow: /
 
-Sitemap: https://agfcsoad.pythonanywhere.com/paranormal/sitemap.xml
+Sitemap: https://enclaveparanormal.com/sitemap.xml
