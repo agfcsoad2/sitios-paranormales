@@ -537,30 +537,6 @@ a { color: inherit; text-decoration: none; }
 .social-info p  { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
 .social-cta     { font-size: 13px; color: var(--accent); font-weight: 500; }
 
-/* ===== REELS STRIP ===== */
-.reels-strip-wrap {
-  overflow-x: auto;
-  padding: 0 24px 16px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--purple) transparent;
-}
-.reels-strip-wrap::-webkit-scrollbar { height: 4px; }
-.reels-strip-wrap::-webkit-scrollbar-track { background: transparent; }
-.reels-strip-wrap::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 2px; }
-
-.reels-strip {
-  display: flex;
-  gap: 20px;
-  width: max-content;
-  padding: 8px 0;
-}
-
-.reel-item {
-  flex-shrink: 0;
-  width: 320px;
-}
-.reel-item .instagram-media { margin: 0 !important; }
-
 /* ===== COMING SOON ===== */
 .coming-soon-box {
   max-width: 480px;
