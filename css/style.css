@@ -63,6 +63,16 @@ a { color: inherit; text-decoration: none; }
   font-size: 18px;
   white-space: nowrap;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo-img, .footer-logo-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -512,6 +522,9 @@ a { color: inherit; text-decoration: none; }
   font-family: var(--font-title);
   font-size: 18px;
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .footer-brand p:last-child {
   font-size: 14px;
