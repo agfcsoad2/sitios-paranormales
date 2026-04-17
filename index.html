@@ -16,11 +16,11 @@
   <nav class="nav" id="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="#">☽ Sitios Paranormales</a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#investigaciones">Investigaciones</a></li>
-        <li><a href="#ubicaciones">Ubicaciones</a></li>
-        <li><a href="#historial">Historial</a></li>
-        <li><a href="#reportar" class="btn-ghost">Reportar sitio</a></li>
+        <li><a href="#historias">Historias</a></li>
+        <li><a href="#videos">Vídeos cortos</a></li>
+        <li><a href="#nosotros">¿Quiénes somos?</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
     </div>
@@ -36,323 +36,52 @@
       <p class="hero-sub">Investigaciones rigurosas, testimonios verificados y documentación detallada de los sitios más enigmáticos.</p>
       <div class="hero-actions">
         <a href="#investigaciones" class="btn-primary">Explorar investigaciones</a>
-        <a href="#ubicaciones" class="btn-secondary">Ver mapa de sitios</a>
-      </div>
-      <div class="hero-stats">
-        <div class="stat"><span class="stat-num">147</span><span class="stat-label">Sitios documentados</span></div>
-        <div class="stat"><span class="stat-num">63</span><span class="stat-label">Investigaciones activas</span></div>
-        <div class="stat"><span class="stat-num">2.4K</span><span class="stat-label">Testimonios recogidos</span></div>
+        <a href="#historias" class="btn-secondary">Ver historias</a>
       </div>
     </div>
-    <div class="hero-scroll">
-      <span></span>
-    </div>
+    <div class="hero-scroll"><span></span></div>
   </header>
 
-  <!-- CATEGORÍAS -->
-  <section class="categories">
-    <div class="container">
-      <div class="cat-grid">
-        <div class="cat-card" data-cat="casas">
-          <div class="cat-icon">🏚️</div>
-          <h3>Casas encantadas</h3>
-          <p>Residencias con actividad anómala documentada.</p>
-          <span class="cat-count">38 sitios</span>
-        </div>
-        <div class="cat-card" data-cat="cementerios">
-          <div class="cat-icon">⚰️</div>
-          <h3>Cementerios</h3>
-          <p>Necrópolis con fenómenos registrados.</p>
-          <span class="cat-count">29 sitios</span>
-        </div>
-        <div class="cat-card" data-cat="edificios">
-          <div class="cat-icon">🏛️</div>
-          <h3>Edificios históricos</h3>
-          <p>Estructuras con historia oscura documentada.</p>
-          <span class="cat-count">45 sitios</span>
-        </div>
-        <div class="cat-card" data-cat="naturaleza">
-          <div class="cat-icon">🌲</div>
-          <h3>Zonas naturales</h3>
-          <p>Bosques, ríos y parajes con actividad inusual.</p>
-          <span class="cat-count">35 sitios</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- INVESTIGACIONES DESTACADAS -->
+  <!-- INVESTIGACIONES -->
   <section class="section" id="investigaciones">
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Casos documentados</p>
-        <h2 class="section-title">Investigaciones destacadas</h2>
-        <p class="section-sub">Cada caso ha sido verificado por nuestro equipo con evidencia audiovisual y testimonial.</p>
-      </div>
-      <div class="cards-grid">
-
-        <article class="case-card featured">
-          <div class="card-badge">Caso activo</div>
-          <div class="card-img" style="background: linear-gradient(135deg,#1a0a2e,#2d1b4e)">
-            <span class="card-emoji">🏚️</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Casa encantada</span>
-              <span class="tag">España</span>
-            </div>
-            <h3>La Casa de las Voces — Toledo</h3>
-            <p>Construcción del siglo XVI con registros de actividad acústica inexplicable. Más de 40 testigos han declarado escuchar conversaciones en habitaciones vacías.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Investigación iniciada: Mar 2024</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="card-img" style="background: linear-gradient(135deg,#0a1a0a,#1b3a1b)">
-            <span class="card-emoji">🌲</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Zona natural</span>
-              <span class="tag">Venezuela</span>
-            </div>
-            <h3>El Bosque del Silencio — Mérida</h3>
-            <p>Área de 3 km² donde los equipos electrónicos dejan de funcionar sin explicación. Reportes de luces esféricas desde 1989.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Documentado: Ene 2025</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="card-img" style="background: linear-gradient(135deg,#1a0f00,#3a2000)">
-            <span class="card-emoji">⚰️</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Cementerio</span>
-              <span class="tag">México</span>
-            </div>
-            <h3>Panteón de San Ángel — CDMX</h3>
-            <p>Cementerio del siglo XVIII con apariciones documentadas fotográficamente. EVP registrados en más de 12 sesiones de investigación.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Documentado: Feb 2025</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="card-img" style="background: linear-gradient(135deg,#0a0a1a,#1b1b3a)">
-            <span class="card-emoji">🏛️</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Edificio histórico</span>
-              <span class="tag">Argentina</span>
-            </div>
-            <h3>Hotel Viena — Córdoba</h3>
-            <p>Hotel abandonado desde 1987. Cámaras de vigilancia han capturado siluetas en movimiento en planta baja durante la madrugada.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Documentado: Abr 2025</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="card-img" style="background: linear-gradient(135deg,#1a001a,#3a003a)">
-            <span class="card-emoji">⛪</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Edificio religioso</span>
-              <span class="tag">Colombia</span>
-            </div>
-            <h3>Capilla de los Difuntos — Cartagena</h3>
-            <p>Capilla colonial sellada desde 1950. Vecinos reportan sonidos de órgano durante la noche a pesar de que el instrumento fue retirado en 1963.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Documentado: Mar 2025</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card">
-          <div class="card-img" style="background: linear-gradient(135deg,#001a1a,#003a3a)">
-            <span class="card-emoji">🚂</span>
-          </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="tag">Infraestructura</span>
-              <span class="tag">España</span>
-            </div>
-            <h3>Túnel de las Almas — Asturias</h3>
-            <p>Túnel ferroviario clausurado en 1972. Excursionistas reportan figuras y pasos sincronizados con los propios, incluso cuando van solos.</p>
-            <div class="card-footer">
-              <span class="card-date">📅 Documentado: Ene 2025</span>
-              <a href="#" class="card-link">Leer caso →</a>
-            </div>
-          </div>
-        </article>
-
+        <h2 class="section-title">Investigaciones</h2>
+        <p class="section-sub">Próximamente.</p>
       </div>
     </div>
   </section>
 
-  <!-- MAPA / UBICACIONES -->
-  <section class="section section-dark" id="ubicaciones">
+  <!-- HISTORIAS -->
+  <section class="section section-dark" id="historias">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">Geografía paranormal</p>
-        <h2 class="section-title">Ubicaciones documentadas</h2>
-        <p class="section-sub">Sitios verificados en España, Venezuela, México, Argentina y Colombia.</p>
-      </div>
-      <div class="location-grid">
-        <div class="location-card">
-          <div class="loc-flag">🇪🇸</div>
-          <div class="loc-info">
-            <h4>España</h4>
-            <p>42 sitios documentados</p>
-            <div class="loc-bar"><div class="loc-fill" style="width:85%"></div></div>
-          </div>
-        </div>
-        <div class="location-card">
-          <div class="loc-flag">🇻🇪</div>
-          <div class="loc-info">
-            <h4>Venezuela</h4>
-            <p>31 sitios documentados</p>
-            <div class="loc-bar"><div class="loc-fill" style="width:62%"></div></div>
-          </div>
-        </div>
-        <div class="location-card">
-          <div class="loc-flag">🇲🇽</div>
-          <div class="loc-info">
-            <h4>México</h4>
-            <p>28 sitios documentados</p>
-            <div class="loc-bar"><div class="loc-fill" style="width:56%"></div></div>
-          </div>
-        </div>
-        <div class="location-card">
-          <div class="loc-flag">🇦🇷</div>
-          <div class="loc-info">
-            <h4>Argentina</h4>
-            <p>24 sitios documentados</p>
-            <div class="loc-bar"><div class="loc-fill" style="width:48%"></div></div>
-          </div>
-        </div>
-        <div class="location-card">
-          <div class="loc-flag">🇨🇴</div>
-          <div class="loc-info">
-            <h4>Colombia</h4>
-            <p>22 sitios documentados</p>
-            <div class="loc-bar"><div class="loc-fill" style="width:44%"></div></div>
-          </div>
-        </div>
+        <p class="section-tag">Relatos</p>
+        <h2 class="section-title">Historias</h2>
+        <p class="section-sub">Próximamente.</p>
       </div>
     </div>
   </section>
 
-  <!-- HISTORIAL / TIMELINE -->
-  <section class="section" id="historial">
+  <!-- VÍDEOS CORTOS -->
+  <section class="section" id="videos">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">Cronología</p>
-        <h2 class="section-title">Últimos registros</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <span class="tl-date">Abril 2025</span>
-            <h4>Hotel Viena — Córdoba, Argentina</h4>
-            <p>Primera documentación audiovisual con cámaras térmicas.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <span class="tl-date">Marzo 2025</span>
-            <h4>Capilla de los Difuntos — Cartagena, Colombia</h4>
-            <p>Registro de 47 minutos de audio con fenómenos EVP clasificados nivel III.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <span class="tl-date">Febrero 2025</span>
-            <h4>Panteón de San Ángel — CDMX, México</h4>
-            <p>Análisis fotográfico de 312 imágenes. Anomalías confirmadas en 18.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <span class="tl-date">Enero 2025</span>
-            <h4>El Bosque del Silencio — Mérida, Venezuela</h4>
-            <p>Mediciones electromagnéticas fuera de rango en zona central del bosque.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <span class="tl-date">Enero 2025</span>
-            <h4>Túnel de las Almas — Asturias, España</h4>
-            <p>Tres expediciones documentadas. Fenómenos auditivos confirmados por 6 investigadores independientes.</p>
-          </div>
-        </div>
+        <p class="section-tag">Contenido</p>
+        <h2 class="section-title">Vídeos cortos</h2>
+        <p class="section-sub">Próximamente.</p>
       </div>
     </div>
   </section>
 
-  <!-- REPORTAR SITIO -->
-  <section class="section section-report" id="reportar">
+  <!-- QUIÉNES SOMOS -->
+  <section class="section section-dark" id="nosotros">
     <div class="container">
-      <div class="report-box">
-        <div class="report-text">
-          <p class="section-tag">Contribuir</p>
-          <h2>¿Conoces un sitio sin documentar?</h2>
-          <p>Nuestro equipo evalúa cada reporte. Si el caso cumple los criterios mínimos de evidencia, iniciamos una investigación formal.</p>
-          <ul class="report-list">
-            <li>✓ Evaluación en menos de 72 horas</li>
-            <li>✓ Tu identidad permanece anónima si lo deseas</li>
-            <li>✓ Participación en la investigación disponible</li>
-          </ul>
-        </div>
-        <form class="report-form" id="reportForm">
-          <div class="form-group">
-            <label for="nombre">Nombre del sitio *</label>
-            <input type="text" id="nombre" placeholder="Ej: Casa de los Lamentos, Sevilla" required />
-          </div>
-          <div class="form-group">
-            <label for="ubicacion">Ubicación *</label>
-            <input type="text" id="ubicacion" placeholder="Ciudad, País" required />
-          </div>
-          <div class="form-group">
-            <label for="tipo">Tipo de fenómeno *</label>
-            <select id="tipo" required>
-              <option value="">Seleccionar...</option>
-              <option>Fenómenos auditivos (EVP, voces)</option>
-              <option>Apariciones visuales</option>
-              <option>Actividad electromagnética</option>
-              <option>Fenómenos físicos (objetos, temperaturas)</option>
-              <option>Otro</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="descripcion">Descripción *</label>
-            <textarea id="descripcion" rows="4" placeholder="Describe los fenómenos observados con la mayor precisión posible..." required></textarea>
-          </div>
-          <div class="form-group">
-            <label for="email">Correo de contacto</label>
-            <input type="email" id="email" placeholder="Para informarte del estado del caso" />
-          </div>
-          <button type="submit" class="btn-primary btn-full">Enviar reporte</button>
-        </form>
+      <div class="section-header">
+        <p class="section-tag">El equipo</p>
+        <h2 class="section-title">¿Quiénes somos?</h2>
+        <p class="section-sub">Próximamente.</p>
       </div>
     </div>
   </section>
@@ -368,16 +97,9 @@
         <div class="footer-links">
           <h5>Navegación</h5>
           <a href="#investigaciones">Investigaciones</a>
-          <a href="#ubicaciones">Ubicaciones</a>
-          <a href="#historial">Historial</a>
-          <a href="#reportar">Reportar sitio</a>
-        </div>
-        <div class="footer-links">
-          <h5>Categorías</h5>
-          <a href="#">Casas encantadas</a>
-          <a href="#">Cementerios</a>
-          <a href="#">Edificios históricos</a>
-          <a href="#">Zonas naturales</a>
+          <a href="#historias">Historias</a>
+          <a href="#videos">Vídeos cortos</a>
+          <a href="#nosotros">¿Quiénes somos?</a>
         </div>
       </div>
       <div class="footer-bottom">
