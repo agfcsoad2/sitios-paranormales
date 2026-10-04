@@ -17,7 +17,24 @@
       "descripcion": "La leyenda del Pont del Diable de Martorell: un puente romano de 2.000 años, un pacto nocturno con el diablo y un gato negro. Vídeo de Enclave Paranormal.",
       "keywords": "Pont del Diable, Martorell, puente del diablo, leyendas de Catalunya, Enclave Paranormal",
       "og_type": "website"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "La leyenda del Pont del Diable",
+        "parrafos": [
+          "Cuenta la leyenda que donde hoy se levanta el puente solo había una vieja pasarela de madera. Cada mañana, una anciana la cruzaba para ir a buscar agua a una fuente de la otra orilla del Llobregat. Una noche, tras una terrible tormenta, la crecida del río se llevó la pasarela por delante y la mujer se quedó sin forma de cruzar.",
+          "Fue entonces cuando se le apareció un apuesto caballero, que no era otro que el mismísimo diablo. Le propuso un trato: construiría un puente de piedra en una sola noche a cambio del alma del primero que lo cruzara de punta a punta. La anciana aceptó.",
+          "Al amanecer, el puente estaba terminado y el diablo esperaba al otro lado para cobrar su deuda. Pero la anciana llevaba un saco, y dentro un gato que, asustado, salió corriendo y cruzó el puente entero. Esa fue la primera alma. El diablo, furioso y avergonzado por haber sido engañado, cogió al gato y desapareció para siempre. Así fue como Martorell se quedó con un puente y el diablo con una mascota."
+        ]
+      },
+      {
+        "titulo": "Un puente con dos mil años de historia",
+        "parrafos": [
+          "Más allá de la leyenda, el puente es uno de los monumentos más conocidos del Baix Llobregat. Sus cimientos y el arco triunfal de la entrada son romanos, de la época en que la Via Augusta cruzaba el río por este punto. El gran arco apuntado que se ve hoy es medieval, y el puente ha tenido que reconstruirse más de una vez a lo largo de los siglos.",
+          "Es una pieza breve, grabada de camino a otra investigación, para contar una de las leyendas más populares de Catalunya. Si te gustan los lugares con historia, en la videoteca encontrarás otros enclaves cargados de relatos, como la <a href=\"/investigaciones/torre-salvana.html\">Torre Salvana</a>, a pocos kilómetros de aquí."
+        ]
+      }
+    ]
   },
   {
     "slug": "torre-salvana-metodo-estes",
@@ -37,7 +54,31 @@
       "descripcion": "Sesión de método Estes en Torre Salvana: auriculares, ojos tapados y spirit box. Respuestas que encajaron más de lo esperado. Investigación de Enclave Paranormal.",
       "keywords": "Torre Salvana, método Estes, spirit box, castillo maldito Cataluña, investigación paranormal, Enclave Paranormal",
       "og_type": "website"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Qué es el método Estes",
+        "parrafos": [
+          "El método Estes es una técnica de comunicación con spirit box pensada para reducir la sugestión. Un compañero hace de receptor: se tapa los ojos y se pone unos auriculares por los que solo oye el barrido de radio de la spirit box, a todo volumen. No ve nada ni oye las preguntas que hace el resto del equipo, así que no puede adivinar qué se le pregunta. Su única tarea es repetir en voz alta las palabras que le llegan.",
+          "La gracia está en comparar después las preguntas con lo que dijo el receptor. Si las respuestas encajan con preguntas que no ha podido oír, el resultado es mucho más difícil de explicar como casualidad."
+        ]
+      },
+      {
+        "titulo": "Lo que respondió la spirit box",
+        "parrafos": [
+          "La sesión se hizo de noche, dentro de la torre. A la primera pregunta, «¿cómo te llamas?», la respuesta fue un nombre: Carlos. A partir de ahí el diálogo fue sorprendentemente coherente. Preguntamos si estaba bien allí y llegó la palabra «dolor». Cuando le preguntamos si quería salir, la respuesta fue «queremos resurgir».",
+          "Aparecieron más nombres: una mujer, Cecilia, y un hombre, Alex. Varias respuestas hablaban de «ella» y de alguien «cobarde», y también de un «señor» que sería «el dueño de esto». Al preguntar cuántos eran, la respuesta fue «hay seis», y más tarde, «somos seis». También salieron frases en catalán que no supimos interpretar.",
+          "Al final, a la pregunta de si quería que nos fuéramos, llegó un «déjame» y luego un «salid». Le dimos las gracias y recogimos. Ya fuera, el receptor contó que había pasado frío durante toda la sesión."
+        ]
+      },
+      {
+        "titulo": "Cómo escuchar el vídeo",
+        "parrafos": [
+          "El audio no está procesado más allá de la normalización: lo que se oye es lo que se registró. Te recomendamos verlo con auriculares y fijarte en el orden de las preguntas y las respuestas. Si una te llama la atención, déjanos el minuto en los comentarios de YouTube.",
+          "Si quieres conocer el lugar y su historia, mira también nuestra visita anterior a la <a href=\"/investigaciones/torre-salvana.html\">Torre Salvana</a>. Y si te interesa la técnica, también la usamos en <a href=\"/investigaciones/la-puda.html\">La Puda de Montserrat</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "la-puda",
@@ -57,7 +98,39 @@
       "descripcion": "Investigación paranormal en La Puda. Vídeo completo de la visita y análisis de los fenómenos registrados por el equipo de Enclave Paranormal.",
       "keywords": "La Puda paranormal, La Puda Montserrat, investigación paranormal, Enclave Paranormal",
       "og_type": "website"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "El balneario de La Puda",
+        "parrafos": [
+          "La Puda de Montserrat es un antiguo balneario de aguas sulfurosas que se levanta a orillas del Llobregat, entre Olesa de Montserrat y Esparreguera, con la montaña de Montserrat de fondo. Su nombre viene precisamente del olor a azufre de sus aguas. Fue un lugar de reposo y tratamientos termales y hoy está abandonado y en ruinas.",
+          "Es un sitio con mucha fama entre los investigadores paranormales, y no era la primera vez que íbamos: ya habíamos grabado allí <a href=\"/investigaciones/la-puda-psicofonias.html\">una sesión de psicofonías</a> en 2023."
+        ]
+      },
+      {
+        "titulo": "Una sesión con el método Estes",
+        "parrafos": [
+          "Esta vez fuimos seis personas y probamos el método Estes: uno de los compañeros se tapó los ojos y se puso los auriculares de la spirit box, sin poder oír nuestras preguntas, y fue repitiendo lo que le llegaba. Era la primera vez que hacía de receptor.",
+          "Cuando preguntamos si había alguien, la primera palabra fue un nombre, «Bea». Al preguntar cómo se llamaba, la respuesta fue «Rosa», y después un apellido, «Pedrero». Nos presentamos como seis y preguntamos cuántos eran: primero llegó «hay una» y, más adelante, «hay tres» y «hay siete». Cuando pedimos que dijera el nombre de alguno de nosotros, salió el nombre del propio receptor. También aparecieron la palabra «peligro», una referencia a «tu hija» y, al final, varias veces, «afuera».",
+          "Al terminar, el receptor explicó lo que había oído: sobre todo una voz de mujer, que era la que más contestaba, y una voz de hombre muy grave que solo decía una palabra."
+        ]
+      },
+      {
+        "titulo": "Lo que registramos",
+        "lista": [
+          "Respuestas a preguntas que el receptor no podía oír.",
+          "Golpes sin una fuente identificada.",
+          "Actividad en el K2 y en el rempod.",
+          "Una voz grave de hombre que nadie esperaba."
+        ]
+      },
+      {
+        "titulo": "Equipo utilizado",
+        "parrafos": [
+          "Spirit box con auriculares, grabadora de voz, detector K2, rempod y cámara nocturna. El vídeo no tiene edición de audio."
+        ]
+      }
+    ]
   },
   {
     "slug": "torre-salvana",
@@ -77,7 +150,42 @@
       "descripcion": "La Torre Salvana, en el Baix Llobregat, arrastra desde hace siglos la fama de “castillo maldito de Cataluña”. Sus muros derruidos y sus salas en ruina han…",
       "keywords": "Torre Salvana, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Mil años de historia",
+        "parrafos": [
+          "La Torre Salvana está en Santa Coloma de Cervelló, a pocos pasos de la Colònia Güell. Se levantó en el siglo X, en plena Marca Hispánica, como torre de defensa frente a las incursiones musulmanas. Con los siglos creció hasta convertirse en un castillo señorial por el que pasaron nobles, soldados y campesinos.",
+          "Durante la Guerra de Sucesión fue escenario de combates y saqueos. Después cayó en el abandono hasta quedar como la vemos hoy: una estructura derruida, invadida por la vegetación, que muchos conocen como «el castillo del infierno» o «el castillo maldito de Cataluña»."
+        ]
+      },
+      {
+        "titulo": "Lo que nos ha pasado aquí",
+        "parrafos": [
+          "La Torre Salvana fue uno de los primeros lugares que investigamos, y hemos vuelto muchas veces. Estas son algunas de las experiencias que contamos en el vídeo:"
+        ],
+        "lista": [
+          "La lluvia bajo techo: en una sesión empezaron a caer gotas dentro de una sala, como si lloviera, en una noche despejada y sin nubes.",
+          "El rempod que no para: es un aparato que pocas veces se activa, y aquí suena a menudo sin que hagamos preguntas. Durante la grabación sonó varias veces en las escaleras y en la entrada.",
+          "Ruidos de batalla: en nuestra primera visita oímos algo parecido a explosiones y a un combate con caballos.",
+          "La mano en la ventana: un compañero asegura haber visto, en dos visitas distintas, una mano en una de las ventanas, igual que la que captó el equipo de investigación GINPASF.",
+          "El golpe: la noche más fuerte se oyó un estruendo como el de un motor y un golpe brutal contra la valla, que se quedó temblando. Salimos todos corriendo y una compañera se cayó y se hizo daño en la mano. Llevábamos dos horas allí y habíamos comprobado varias veces que no había nadie más."
+        ]
+      },
+      {
+        "titulo": "Leyendas y fenómenos",
+        "parrafos": [
+          "Sobre la torre circulan muchas historias: un humo negro que saldría de sus muros o la aparición de una niña vestida de blanco. Nosotros nunca las hemos visto y preferimos contar solo lo que hemos vivido. Siempre buscamos primero una explicación lógica.",
+          "La visita se grabó el 15 de agosto de 2025, después de que se derrumbara una de las salas principales. Al final hicimos una breve sesión de spirit box en la entrada. Volvimos poco después para probar el <a href=\"/investigaciones/torre-salvana-metodo-estes.html\">método Estes</a> dentro de la torre."
+        ]
+      },
+      {
+        "titulo": "Si vas a visitarla",
+        "parrafos": [
+          "La torre está en muy mal estado y hay zonas a punto de caerse. No fuerces accesos, no te metas bajo techos dañados y respeta el patrimonio: cada vez que volvemos está más deteriorada."
+        ]
+      }
+    ]
   },
   {
     "slug": "masia-20-regreso",
@@ -97,7 +205,46 @@
       "descripcion": "Regresamos a la Masía 20, la casa abandonada a las afueras de Barcelona donde ya habíamos vivido una actividad paranormal intensa. En esta ocasión…",
       "keywords": "Masía 20 — El regreso, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Por qué volvimos",
+        "parrafos": [
+          "Es la tercera vez que pisamos la Masía 20. En <a href=\"/investigaciones/masia-20.html\">nuestra primera investigación</a> oímos lamentos de mujer, vimos una sombra y tuvimos que irnos antes de tiempo, con la sensación de que algo nos seguía por el camino de vuelta al coche. Queríamos saber si aquello volvería a pasar.",
+          "Esta vez no fuimos solos: nos acompañó el equipo de El Camino Paranormal & Urbex y emitimos la investigación en directo por TikTok y YouTube."
+        ]
+      },
+      {
+        "titulo": "La masía, más deteriorada",
+        "parrafos": [
+          "La casa está a unos 40 o 50 minutos de Barcelona, junto a un río que en época de lluvias baja muy crecido. Para los años que lleva abandonada, la estructura y los techos se conservan bien, pero desde nuestra última visita había más maleza, más cosas rotas y hasta habían arrancado la placa con el número 20. Es una pena: estos lugares son una forma de viajar en el tiempo y merecen respeto.",
+          "Nada más subir al piso de arriba, a uno de nosotros se le cerró una puerta de golpe en la cara, sin nadie al otro lado."
+        ]
+      },
+      {
+        "titulo": "El vídeo que se borró",
+        "parrafos": [
+          "Cuando llegamos a casa y descargamos el material, todo estaba bien menos un archivo: el de los 49 minutos de investigación. El vídeo existía, pero estaba dañado y no se podía abrir, y la batería de la cámara se había agotado de golpe. Intentamos recuperarlo de todas las formas posibles sin éxito. Por suerte, el directo se había grabado con el móvil, y por eso a partir de ese momento el vídeo es vertical."
+        ]
+      },
+      {
+        "titulo": "Lo que pasó durante la sesión",
+        "lista": [
+          "Cinco minutos después de colocar los aparatos, los K2 ya marcaban picos y los rempods sonaban sin parar.",
+          "Un aparato que uno de los compañeros llevaba por primera vez, y que solo se activa con un toque fuerte, se disparó varias veces.",
+          "Dejamos un vigilabebés en una de las habitaciones vacías y por él se oyeron voces y silbidos.",
+          "Volvimos a oír los mismos gemidos de nuestra primera visita.",
+          "Varias personas que seguían el directo dijeron haber visto figuras en el pasillo.",
+          "Uno de nosotros sintió que alguien le tapaba los ojos en el piso de arriba."
+        ]
+      },
+      {
+        "titulo": "Despedida",
+        "parrafos": [
+          "Cuando los aparatos empezaron a responder como si les molestara nuestra presencia, decidimos irnos. Como siempre, nos despedimos con respeto: venimos con respeto y nos vamos con respeto."
+        ]
+      }
+    ]
   },
   {
     "slug": "masia-20",
@@ -117,7 +264,30 @@
       "descripcion": "Investigación paranormal en la Masia 20. Vídeo completo y análisis de fenómenos registrados por Enclave Paranormal en esta masía abandonada.",
       "keywords": "Masia 20 paranormal, masía abandonada Barcelona, investigación paranormal, Enclave Paranormal",
       "og_type": "website"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Recorrido por la masía",
+        "parrafos": [
+          "La casa se conserva sorprendentemente entera: sillones viejos, un reloj antiguo, un dormitorio de matrimonio con el colchón todavía en la cama, cortinas bordadas, una cocina con vistas al río, chimeneas y una silla de ruedas antiquísima. En el piso de arriba hay una zona de granero con el suelo cubierto de paja, que no nos atrevimos a pisar.",
+          "Lo que más nos impresionó fueron los rastros de los niños: libretas con deberes todavía sobre las mesas y la barandilla de una cuna en una de las habitaciones. Por desgracia, también hay pintadas y destrozos de visitantes que no respetan estos lugares."
+        ]
+      },
+      {
+        "titulo": "Los lamentos",
+        "parrafos": [
+          "Mientras grabábamos por separado, una de nosotras oyó gritos que parecían salir del interior de la casa, como de una mujer o de niños. Durante la sesión de psicofonías, con K2, una pelota de energía y sensores de movimiento en las puertas, volvió a pasar: un lamento de mujer, repetido una y otra vez, que no venía de la autopista ni de las motos que pasaban de vez en cuando.",
+          "Oímos también un golpe y, en un momento, vimos una sombra negra cruzar frente a la cámara."
+        ]
+      },
+      {
+        "titulo": "Venimos dos, nos vamos dos",
+        "parrafos": [
+          "Poco a poco empezamos a encontrarnos mal: una presión en la cabeza, cambios de calor a frío y la sensación clara de que no éramos bienvenidos. Decidimos parar. De camino al coche, una de nosotras empezó a marearse y a sentir un peso enorme sobre los hombros, como si algo la siguiera. La cámara llevaba la tapa puesta y de ese tramo solo hay audio, pero se oye cómo repetimos: «Venimos dos, nos vamos dos. No tienes permiso para venir con nosotros».",
+          "Nuestra impresión fue que los antiguos dueños de la casa estaban enfadados por nuestra visita, y que los lamentos eran de alguien sometido por otra presencia más fuerte. Volvimos más de un año después para la <a href=\"/investigaciones/masia-20-regreso.html\">segunda parte</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "hotel-posesion",
@@ -137,7 +307,29 @@
       "descripcion": "Recorremos el que muchos consideran el hotel abandonado más terrorífico de Barcelona, un edificio que los vecinos conocen como “el hotel maldito” y cuya…",
       "keywords": "Hotel Abandonado — Posesión, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Vuelta al hotel",
+        "parrafos": [
+          "Es la segunda investigación que publicamos en este hotel abandonado a pie de autopista. Puedes ver la primera en <a href=\"/investigaciones/hotel-abandonado.html\">Hotel Abandonado</a>. Fuimos de nuevo con el equipo de El Camino Paranormal & Urbex, esta vez con más protección que nunca, porque en este lugar ya habíamos vivido situaciones muy tensas."
+        ]
+      },
+      {
+        "titulo": "La sesión",
+        "parrafos": [
+          "Nada más montar el equipo, las pelotas de energía empezaron a encenderse y se oyeron voces extrañas. Los K2 estaban casi al máximo y los sensores de movimiento se activaban cuando lo pedíamos. Una de las compañeras vio cómo una figura pasaba por detrás del grupo y se quedaba parada junto a otra compañera. Más tarde cambiamos de sala y empezaron los golpes, uno o dos según lo que preguntábamos.",
+          "Cuando preguntamos cuántas entidades había, la compañera que tenía al lado empezó a encontrarse mal y tuvimos que recoger y salir corriendo del hotel."
+        ]
+      },
+      {
+        "titulo": "La posesión",
+        "parrafos": [
+          "Ya fuera, sentada en la calle, la compañera empezó a hablar con otra voz. Dijo llamarse Amanda y tener 60 años. Contó que su marido la había matado en el pueblo de su abuela y que buscaba a sus tres hijos, a los que no encontraba; uno de ellos se llamaba Elena. Le pedimos con calma que abandonara el cuerpo y usamos agua y un amuleto familiar que suele ayudarnos en estas situaciones.",
+          "Al volver en sí, ella no recordaba nada de lo ocurrido desde que salimos del hotel. Solo recordaba haber visto dentro muchísima gente, «como un cine lleno». Todo quedó grabado en vídeo."
+        ]
+      }
+    ]
   },
   {
     "slug": "hotel-abandonado",
@@ -157,7 +349,29 @@
       "descripcion": "Investigamos uno de los hoteles más paranormales del urbex de Barcelona, un lugar donde numerosos grupos de investigación han registrado todo tipo de…",
       "keywords": "Hotel Abandonado, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Un hotel que ya conocíamos",
+        "parrafos": [
+          "Habíamos estado en este hotel varias veces antes, pero nunca lo habíamos subido a YouTube. Una noche, durante un directo en TikTok con otros compañeros, nos cayó una piedra en una de las habitaciones de la primera planta. El techo está entero y sin desprendimientos, así que nunca supimos de dónde salió. Volvimos con el equipo de El Camino Paranormal & Urbex, que también ha vivido aquí experiencias muy fuertes."
+        ]
+      },
+      {
+        "titulo": "Recorrido",
+        "parrafos": [
+          "El hotel está en muy mal estado: todas las habitaciones son iguales, están destrozadas y los techos de la segunda planta están a punto de caerse. Abajo quedan los salones, lo que parece una cocina y la escalera que baja al sótano, todo lleno de basura. Está prácticamente al lado de la autopista, y el ruido de los coches se oye durante todo el vídeo.",
+          "En una de esas salas, un año antes, uno de nosotros empezó a encontrarse mal en mitad de una investigación y decidimos irnos."
+        ]
+      },
+      {
+        "titulo": "Lo que pasó esta vez",
+        "parrafos": [
+          "En la sala donde hace tiempo hubo una posesión, una compañera empezó a sentir algo pegado a ella y a hablar con alguien que, según decía, le había hecho mucho daño. Tuvimos que sacarla fuera a descansar un rato. Al volver a entrar oímos golpes, una respiración muy cerca, pasos, y alguien empezó a tirar piedras. Uno de los compañeros notó que le tocaban el brazo dos veces.",
+          "La historia continúa en <a href=\"/investigaciones/hotel-posesion.html\">Hotel Abandonado — Posesión</a>, nuestra siguiente visita."
+        ]
+      }
+    ]
   },
   {
     "slug": "casa-juguetes",
@@ -177,7 +391,28 @@
       "descripcion": "Exploramos una masía abandonada muy especial, conocida como “la casa de los juguetes”: un lugar repleto de juguetes antiguos, reliquias y recuerdos que…",
       "keywords": "La Casa de los Juguetes, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Una exploración en silencio",
+        "parrafos": [
+          "Esta casa tiene vecinos muy cerca, así que casi no hablamos durante la grabación para no llamar la atención. Además, la cámara tuvo un problema de sonido que llenó el audio de ruido, por lo que no hemos podido analizar las posibles psicofonías."
+        ]
+      },
+      {
+        "titulo": "El cuarto de los niños",
+        "parrafos": [
+          "Es la estancia más especial de la casa. Siguen allí los libros, los juguetes antiguos y hasta la ropa de los niños. Por las fotos de la familia que encontramos en la planta baja, creemos que eran tres o cuatro hermanos. No conocemos la historia, pero todo parece indicar que la familia se marchó de un día para otro y lo dejó todo tal cual. Ha habido saqueos, pero la esencia de lo que se vivió allí sigue presente."
+        ]
+      },
+      {
+        "titulo": "La sesión",
+        "parrafos": [
+          "Colocamos dos pelotas de luz para que los niños pudieran jugar con ellas y dos sensores de movimiento, uno en cada puerta, incluida la del cuarto de juegos. Hicimos preguntas en voz baja: cuántos niños vivían allí, si fueron felices, si alguno de los que salen en las fotos seguía en la casa. Una de las pelotas se encendió en varias ocasiones mientras preguntábamos.",
+          "Para nosotros es, de momento, el mejor hallazgo que hemos hecho en el mundo del urbex. La siguiente parada fue el hotel que puedes ver en <a href=\"/investigaciones/hotel-abandonado.html\">Hotel Abandonado</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "restaurante-abandonado",
@@ -197,7 +432,28 @@
       "descripcion": "Exploramos un restaurante abandonado en el área de Barcelona donde el tiempo parece haberse detenido: mesas aún puestas, objetos olvidados y una atmósfera…",
       "keywords": "Restaurante Abandonado, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "La segunda parte de La Herencia Olvidada",
+        "parrafos": [
+          "Este vídeo continúa <a href=\"/investigaciones/restaurante-herencia.html\">Restaurante — La Herencia Olvidada</a>. Después de recorrer los salones, volvimos para entrar en la vivienda de los dueños, que estaba dentro del propio restaurante, y hacer allí la investigación paranormal."
+        ]
+      },
+      {
+        "titulo": "La casa de los dueños",
+        "parrafos": [
+          "La vivienda tenía su propia cocina de servicio, dormitorios con grandes armarios, una lavandería e incluso un ascensor para subir desde el restaurante. Está muy destrozada, pero todavía se nota que allí vivió una familia."
+        ]
+      },
+      {
+        "titulo": "La investigación",
+        "parrafos": [
+          "Empezamos la sesión en la casa, con el K2, grabadoras y sensores de movimiento repartidos por todas partes. Preguntamos por el propietario y por la pelea de sus hijos por la herencia. El K2 empezó a marcar picos, pero el ruido de los coches era constante y no nos dejaba trabajar, así que nos trasladamos a otra zona más tranquila.",
+          "Allí, con cuatro pelotas de energía y dos cámaras, seguimos con las preguntas hasta tarde. Hubo muchos golpes y captamos varias psicofonías."
+        ]
+      }
+    ]
   },
   {
     "slug": "restaurante-herencia",
@@ -217,7 +473,32 @@
       "descripcion": "Visitamos un impresionante restaurante abandonado conocido como “La Herencia Olvidada”. Entre sus salones de eventos, su cocina y sus oficinas todavía…",
       "keywords": "Restaurante — La Herencia Olvidada, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "La historia del restaurante",
+        "parrafos": [
+          "Según se cuenta, el restaurante cerró cuando murió su propietario. Sus hijos no se pusieron de acuerdo sobre la herencia y el edificio quedó olvidado. Era un lugar enorme, dedicado a bodas, bautizos, comuniones y todo tipo de celebraciones, con la casa de los dueños dentro."
+        ]
+      },
+      {
+        "titulo": "Lo que encontramos",
+        "lista": [
+          "Copas y vasos por todas partes, sombrillas de la terraza tiradas y hasta unos zapatos de payaso.",
+          "El menú de los aperitivos del banquete.",
+          "Varios salones de fiestas con un escenario para música en directo, y lo que parecen camerinos con espejos.",
+          "Un tocadiscos y una figura de la Virgen.",
+          "Un despacho con documentos, facturas y un libro de caja de 1939.",
+          "Un baño completamente intacto, como si nadie hubiera pasado por allí."
+        ]
+      },
+      {
+        "titulo": "Continúa en la segunda parte",
+        "parrafos": [
+          "En este vídeo recorremos el restaurante. La exploración de la casa de los dueños y la investigación paranormal están en <a href=\"/investigaciones/restaurante-abandonado.html\">Restaurante Abandonado</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "fabrica-abandonada",
@@ -237,7 +518,23 @@
       "descripcion": "Nos adentramos en una antigua fábrica abandonada que fue primero algodonera, después textil y finalmente un taller dedicado a fabricar lienzos. Entre sus…",
       "keywords": "La Fábrica Abandonada, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Una fábrica con tres vidas",
+        "parrafos": [
+          "El edificio pasó por tres etapas: primero fue una fábrica algodonera, luego una fábrica textil y al final un taller de lienzos. Cada una dejó su huella, y entre telas, vinilos y libretas de apuntes todavía se puede imaginar el trabajo diario de quienes pasaron allí tantas horas."
+        ]
+      },
+      {
+        "titulo": "Lo que notamos durante la investigación",
+        "lista": [
+          "Pasos muy cerca de nosotros cuando nadie se movía.",
+          "Un olor a cola insoportable que aparecía de repente, como si los trabajadores siguieran pegando lienzos.",
+          "Psicofonías con voces que parecen ancladas en otra época."
+        ]
+      }
+    ]
   },
   {
     "slug": "masia-siglo-xi",
@@ -257,7 +554,24 @@
       "descripcion": "Exploramos una masía con más de 150 años de historia, construida alrededor de una torre del siglo XI. Fue saqueada durante la Guerra de la Independencia,…",
       "keywords": "Masía del Siglo XI, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "La historia de la masía",
+        "parrafos": [
+          "El primer documento que menciona a la familia propietaria es del 18 de mayo de 1856, aunque no se sabe si la masía existía ya entonces. Se construyó alrededor de una torre del siglo XI y se fue ampliando y reformando hasta llegar al edificio actual.",
+          "Fue saqueada durante la Guerra de la Independencia y en la Guerra Civil acogió a refugiados llegados de Madrid. Se dice que el propietario huyó al empezar la guerra. La masía quedó deshabitada en los años 80 y en 1996 pasó a ser propiedad del ayuntamiento."
+        ]
+      },
+      {
+        "titulo": "La investigación",
+        "parrafos": [
+          "Recorrimos el edificio con cuidado, porque hay zonas con el suelo hundido. Encontramos una sala con una cúpula, un gran salón con un arco central y una cocina, además de restos de velas que alguien había dejado allí.",
+          "Colocamos dos sensores de movimiento, uno en la escalera, y varias pelotas de energía en el suelo. En un momento de la sesión sentimos una presencia cerca y las luces de las pelotas se encendieron, coincidiendo con un pico en el detector.",
+          "Gracias al canal de Toni Urbex por ayudarnos con esta y otras ubicaciones."
+        ]
+      }
+    ]
   },
   {
     "slug": "la-puda-psicofonias",
@@ -277,7 +591,22 @@
       "descripcion": "Regresamos a la misteriosa y abandonada Puda de Montserrat, un antiguo balneario desolado y derruido por el paso del tiempo a los pies de la montaña…",
       "keywords": "La Puda de Montserrat — Psicofonías, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Un lugar de rituales",
+        "parrafos": [
+          "La Puda de Montserrat es un antiguo balneario de aguas sulfurosas junto al Llobregat, abandonado y cada vez más derrumbado. Además de exploradores urbanos, atrae a gente que acude a hacer rituales e invocaciones entre sus muros. Hay quien cree que esas prácticas han dejado portales abiertos."
+        ]
+      },
+      {
+        "titulo": "La investigación",
+        "parrafos": [
+          "Entramos de noche con la grabadora y dedicamos la sesión a buscar psicofonías. Grabamos este vídeo en mayo de 2023, en la misma serie que <a href=\"/investigaciones/casa-talamanca.html\">La Casa de Talamanca</a> y <a href=\"/investigaciones/masia-tinajas.html\">La Masía de las Tinajas</a>.",
+          "Volvimos en 2026 para probar el método Estes: puedes verlo en <a href=\"/investigaciones/la-puda.html\">La Puda de Montserrat</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "casa-talamanca",
@@ -297,7 +626,28 @@
       "descripcion": "Realizamos una investigación paranormal nocturna en la Casa de Talamanca (Barcelona), una vivienda abandonada que nunca llegó a terminarse. Recorrimos…",
       "keywords": "La Casa de Talamanca, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Una casa que nunca se terminó",
+        "parrafos": [
+          "La Casa de Talamanca es una vivienda abandonada que nunca llegó a terminarse. Hicimos el recorrido de noche y fuimos sala por sala con la grabadora en marcha."
+        ]
+      },
+      {
+        "titulo": "Lo que registramos",
+        "lista": [
+          "Varias psicofonías durante el recorrido.",
+          "Sonidos sin explicación en estancias en las que no había nadie."
+        ]
+      },
+      {
+        "titulo": "Equipo",
+        "parrafos": [
+          "Grabadora de voz, cámara nocturna y detector K2. Es de las investigaciones de mayo de 2023, junto a <a href=\"/investigaciones/la-puda-psicofonias.html\">La Puda de Montserrat — Psicofonías</a> y <a href=\"/investigaciones/masia-tinajas.html\">La Masía de las Tinajas</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "casa-prohibida-2",
@@ -317,7 +667,21 @@
       "descripcion": "Segunda parte de la exploración a esta casa abandonada, repleta de reliquias y pertenencias de sus antiguos dueños. Continuamos el recorrido por sus…",
       "keywords": "La Casa Prohibida (Parte 2), investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Por qué no hubo sesión de psicofonías",
+        "parrafos": [
+          "Mientras recorríamos la casa nos descubrieron. Nos pidieron que nos fuéramos y avisaron a la policía, así que salimos sin hacer la sesión de psicofonías prevista. Siempre exploramos con respeto y sin forzar accesos, y cuando alguien nos pide que nos vayamos, nos vamos."
+        ]
+      },
+      {
+        "titulo": "Con quién fuimos",
+        "parrafos": [
+          "Hicimos esta exploración junto al equipo de El Camino Paranormal & Urbex. Gracias también al canal de Toni Urbex. La primera parte está en <a href=\"/investigaciones/masia-tinajas.html\">La Masía de las Tinajas</a>."
+        ]
+      }
+    ]
   },
   {
     "slug": "masia-tinajas",
@@ -337,7 +701,22 @@
       "descripcion": "Nos adentramos en una antigua masía abandonada llena de misterios, con todas las pertenencias de sus antiguos dueños aún en su sitio. Durante esta…",
       "keywords": "La Masía de las Tinajas, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Recorrido por la casa",
+        "parrafos": [
+          "Entramos con el equipo de El Camino Paranormal & Urbex, pidiendo permiso antes de cruzar la puerta. Dentro, todo seguía en su sitio: una televisión antigua frente a tres sillas, dormitorios con la cama hecha, mesitas de noche, espejos y cuadros con flores. En la cocina quedaban botellas, sartenes y una paellera, y al fondo se veía el establo.",
+          "Una parte de la casa está en ruinas, con el techo caído sobre una de las camas, así que no pudimos entrar en todas las estancias. Las tinajas de vino centenarias que dan nombre a la masía son uno de los hallazgos más impresionantes del recorrido."
+        ]
+      },
+      {
+        "titulo": "Continúa en la segunda parte",
+        "parrafos": [
+          "La exploración sigue en <a href=\"/investigaciones/casa-prohibida-2.html\">La Casa Prohibida (Parte 2)</a>, que terminó de forma inesperada."
+        ]
+      }
+    ]
   },
   {
     "slug": "masia-mas-alla",
@@ -357,6 +736,27 @@
       "descripcion": "Investigación paranormal en una masía abandonada en plena montaña y bosque de Barcelona, realizada junto al equipo de El Camino Paranormal & Urbex. Un…",
       "keywords": "La Masía del Más Allá, investigación paranormal, urbex Barcelona, psicofonías, Enclave Paranormal",
       "og_type": "video.other"
-    }
+    },
+    "secciones": [
+      {
+        "titulo": "Una masía perdida en el bosque",
+        "parrafos": [
+          "La masía está aislada en plena montaña, rodeada de bosque. La investigamos junto al equipo de El Camino Paranormal & Urbex, con quienes después hemos compartido otras investigaciones, como <a href=\"/investigaciones/masia-20-regreso.html\">Masía 20 — El regreso</a>."
+        ]
+      },
+      {
+        "titulo": "Lo que registramos",
+        "lista": [
+          "Numerosas psicofonías durante la sesión.",
+          "Fotografías en las que creemos que aparecen entes."
+        ]
+      },
+      {
+        "titulo": "Equipo",
+        "parrafos": [
+          "Grabadora de voz, detector K2, cámara nocturna y sensor de movimiento."
+        ]
+      }
+    ]
   }
 ]

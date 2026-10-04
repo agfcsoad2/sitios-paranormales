@@ -299,6 +299,11 @@
 .pb-card .pb-yt:hover { color: var(--vhs-white); }
 .pb-text h2 { font-size: 26px; color: var(--purple-light); margin-bottom: 18px; }
 .pb-text p { color: #cfc8e6; font-size: 17px; line-height: 1.75; font-weight: 300; margin-bottom: 18px; }
+.pb-text h3 { font-size: 22px; color: var(--purple-light); margin: 36px 0 14px; }
+.pb-text ul { margin: 0 0 18px; padding-left: 0; list-style: none; }
+.pb-text li { color: #cfc8e6; font-size: 17px; line-height: 1.65; font-weight: 300; padding: 4px 0 4px 26px; position: relative; }
+.pb-text li::before { content: '▶'; position: absolute; left: 0; top: 7px; font-size: 11px; color: var(--purple-light); }
+.pb-text a { color: var(--purple-light); text-decoration: underline; text-underline-offset: 3px; }
 
 /* REW / FF */
 .pb-nav {

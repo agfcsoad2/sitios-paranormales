@@ -239,6 +239,12 @@ def ficha(it, newer, older, n, nav, footer):
     spacer = '        <div class="pb-nav-spacer"></div>'
     nav_html = (nav_card(newer, 'rew') if newer else spacer) + '\n' + (nav_card(older, 'ff') if older else spacer)
     parrafos = '\n'.join(f'        <p>{p}</p>' for p in it['parrafos'])
+    for sec in it.get('secciones', []):
+        parrafos += f'\n      <h3 class="osd">{sec["titulo"]}</h3>'
+        parrafos += ''.join(f'\n        <p>{p}</p>' for p in sec.get('parrafos', []))
+        if sec.get('lista'):
+            items = ''.join(f'\n          <li>{li}</li>' for li in sec['lista'])
+            parrafos += f'\n        <ul>{items}\n        </ul>'
     return f'''<!DOCTYPE html>
 <html lang="es">
 <head>
