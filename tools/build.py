@@ -335,6 +335,7 @@ def ficha(it, newer, older, n, nav, footer):
 
   <script src="/js/main.js"></script>
   <script src="/js/home.js"></script>
+  <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 '''
