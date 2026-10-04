@@ -24,11 +24,15 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Enclave Paranormal — Investigaciones y Documentación Paranormal" />
   <meta name="twitter:description" content="Enclave Paranormal documenta sitios encantados, casas abandonadas y fenómenos inexplicables. Investigaciones reales con vídeo y análisis detallado." />
-  <meta name="twitter:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />  <link rel="stylesheet" href="/css/style.css" />
+  <meta name="twitter:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/home.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body class="home">
+
+  <canvas class="vhs-noise" id="vhsNoise" aria-hidden="true"></canvas>
 
   <nav class="nav" id="nav">
     <div class="nav-inner">
@@ -44,20 +48,311 @@
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="hero-bg"></div>
-    <div class="particles" id="particles"></div>
-    <div class="hero-content">
-      <p class="hero-tag">Documentación paranormal</p>
-      <h1 class="hero-title">Los lugares donde<br/>lo inexplicable <span class="glow">existe</span></h1>
-      <p class="hero-sub">Investigaciones rigurosas, testimonios verificados y documentación detallada de los sitios más enigmáticos.</p>
-      <div class="hero-actions">
-        <a href="/investigaciones/" class="btn-primary">Explorar investigaciones</a>
-        <a href="/historias/" class="btn-secondary">Ver historias</a>
+  <header class="tape-hero">
+    <div class="tape-hero-img" style="background-image:url('https://img.youtube.com/vi/Vm9UtqlORaI/maxresdefault.jpg'),url('https://img.youtube.com/vi/Vm9UtqlORaI/hqdefault.jpg')"></div>
+    <div class="scanlines"></div>
+    <div class="tracking-bar" aria-hidden="true"></div>
+
+    <div class="osd osd-corner osd-tl" aria-hidden="true">▶ Play<span class="osd-small">Cinta 18 · SP</span></div>
+    <div class="osd osd-corner osd-tr" aria-hidden="true"><span class="rec-dot"></span><span id="osdClock">--:--</span></div>
+    <div class="osd osd-corner osd-bl" aria-hidden="true" id="osdCounter">0:00:00</div>
+    <div class="osd osd-corner osd-br" aria-hidden="true">AGO.23 2026</div>
+
+    <div class="tape-hero-content">
+      <p class="tape-label"><span class="rec-dot"></span>Última investigación</p>
+      <h1 class="tape-title">El Pont del Diable de Martorell</h1>
+      <p class="tape-desc">Nos plantamos ante el puente romano de Martorell para contar su leyenda: un pacto hecho de noche, un puente levantado en unas horas y un final que al diablo no le salió como esperaba.</p>
+      <div class="tape-actions">
+        <a href="/investigaciones/pont-del-diable.html" class="btn-vhs">▶ Reproducir cinta</a>
+        <a href="#archivo" class="btn-vhs ghost">Ver el archivo</a>
       </div>
     </div>
-    <div class="hero-scroll"><span></span></div>
   </header>
+
+  <div class="ident" aria-hidden="true">
+    <div class="ident-track">
+      <span><em>●</em> Enclave Paranormal</span><span>Los lugares donde lo inexplicable existe</span><span><em>●</em> Grabado en lugares reales</span><span>Psicofonías · Spirit box · Urbex nocturno</span><span><em>●</em> Enclave Paranormal</span><span>Los lugares donde lo inexplicable existe</span><span><em>●</em> Grabado en lugares reales</span><span>Psicofonías · Spirit box · Urbex nocturno</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="archive" id="archivo">
+      <div class="container">
+        <div class="archive-head">
+          <div>
+            <p class="osd archive-kicker">⏏ Archivo de cintas · 18 grabaciones</p>
+            <h2 class="archive-title">Todas las investigaciones</h2>
+          </div>
+          <p class="archive-sub">Cada cinta es una noche en un lugar real: masías abandonadas, hoteles malditos, balnearios en ruinas. Elige una y dale al play.</p>
+        </div>
+        <div class="tape-grid">
+        <a href="/investigaciones/pont-del-diable.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/Vm9UtqlORaI/hqdefault.jpg" alt="El Pont del Diable de Martorell" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 18</span>
+            <span class="osd tape-osd tr">AGO.23 2026</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">2:12</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#18</span>
+            <h3 class="tape-name">El Pont del Diable de Martorell</h3>
+          </div>
+          <p class="tape-text">Nos plantamos ante el puente romano de Martorell para contar su leyenda: un pacto hecho de noche, un puente levantado en unas horas y un final que al diablo no le salió como esperaba.</p>
+        </a>
+        <a href="/investigaciones/torre-salvana-metodo-estes.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/GzM0WQy0Ees/hqdefault.jpg" alt="Torre Salvana — Método Estes" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 17</span>
+            <span class="osd tape-osd tr">AGO.21 2026</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">16:11</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#17</span>
+            <h3 class="tape-name">Torre Salvana — Método Estes</h3>
+          </div>
+          <p class="tape-text">Auriculares puestos, ojos tapados y spirit box a todo volumen en el castillo maldito de Cataluña. Sin oír las preguntas, solo repitiendo lo que llegaba… y las respuestas encajaron.</p>
+        </a>
+        <a href="/investigaciones/la-puda.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/f7gzWaYCBv4/hqdefault.jpg" alt="La Puda de Montserrat" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 16</span>
+            <span class="osd tape-osd tr">ABR.21 2026</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">15:06</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#16</span>
+            <h3 class="tape-name">La Puda de Montserrat</h3>
+          </div>
+          <p class="tape-text">Sesión nocturna de psicofonías en el antiguo balneario abandonado a los pies de Montserrat. Registramos respuestas directas y fenómenos inexplicables en uno de los enclaves más oscuros de Barcelona.</p>
+        </a>
+        <a href="/investigaciones/torre-salvana.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/wQhoyPUMCVE/hqdefault.jpg" alt="Torre Salvana" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 15</span>
+            <span class="osd tape-osd tr">OCT.11 2025</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">19:17</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#15</span>
+            <h3 class="tape-name">Torre Salvana</h3>
+          </div>
+          <p class="tape-text">Volvemos al “castillo maldito de Cataluña” para documentar su estado tras el último derrumbe. Ruidos inexplicables, sensación de presencias y la famosa “mano” captada en su interior.</p>
+        </a>
+        <a href="/investigaciones/masia-20-regreso.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/HX9sQFek4YA/hqdefault.jpg" alt="Masía 20 — El regreso" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 14</span>
+            <span class="osd tape-osd tr">AGO.24 2025</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">46:01</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#14</span>
+            <h3 class="tape-name">Masía 20 — El regreso</h3>
+          </div>
+          <p class="tape-text">Regresamos a la Masía 20 mejor equipados. Puertas que se cierran solas, dispositivos que enloquecen, voces y silbidos captados, y una interferencia que borró parte de la grabación.</p>
+        </a>
+        <a href="/investigaciones/masia-20.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/MsQbhA6tvio/hqdefault.jpg" alt="Masía 20" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 13</span>
+            <span class="osd tape-osd tr">MAR.24 2024</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">36:04</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#13</span>
+            <h3 class="tape-name">Masía 20</h3>
+          </div>
+          <p class="tape-text">Investigación nocturna en una masía abandonada a las afueras de Barcelona. Lamentos de mujer, sombras cruzando la cámara y una presencia oprimente que nos obligó a abandonar el lugar antes de tiempo.</p>
+        </a>
+        <a href="/investigaciones/hotel-posesion.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/LYUW1VVWfro/hqdefault.jpg" alt="Hotel Abandonado — Posesión" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 12</span>
+            <span class="osd tape-osd tr">ENE.04 2024</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">51:00</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#12</span>
+            <h3 class="tape-name">Hotel Abandonado — Posesión</h3>
+          </div>
+          <p class="tape-text">Recorremos el “hotel maldito” de Barcelona, donde se dice que ocurren apariciones. Vivimos momentos de auténtico miedo que culminaron en una sorprendente posesión grabada en vídeo.</p>
+        </a>
+        <a href="/investigaciones/hotel-abandonado.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/4mL61nR2MlM/hqdefault.jpg" alt="Hotel Abandonado" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 11</span>
+            <span class="osd tape-osd tr">NOV.10 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">37:40</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#11</span>
+            <h3 class="tape-name">Hotel Abandonado</h3>
+          </div>
+          <p class="tape-text">Uno de los hoteles más paranormales del urbex de Barcelona. Se dice que otros grupos practicaron la Ouija y dejaron portales abiertos que nunca supieron cerrar.</p>
+        </a>
+        <a href="/investigaciones/casa-juguetes.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/Nfm2knJwWuw/hqdefault.jpg" alt="La Casa de los Juguetes" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 10</span>
+            <span class="osd tape-osd tr">JUL.29 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">28:57</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#10</span>
+            <h3 class="tape-name">La Casa de los Juguetes</h3>
+          </div>
+          <p class="tape-text">Una masía abandonada repleta de juguetes antiguos, reliquias y recuerdos olvidados. Entre sus estancias se respira una atmósfera cargada de tristeza y angustia.</p>
+        </a>
+        <a href="/investigaciones/restaurante-abandonado.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/_ErBKJlGehc/hqdefault.jpg" alt="Restaurante Abandonado" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 09</span>
+            <span class="osd tape-osd tr">JUL.07 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">23:48</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#09</span>
+            <h3 class="tape-name">Restaurante Abandonado</h3>
+          </div>
+          <p class="tape-text">Un restaurante abandonado donde el tiempo se detuvo: mesas aún puestas y objetos olvidados. Recorrimos cada sala con K2, grabadora y cámara nocturna captando anomalías.</p>
+        </a>
+        <a href="/investigaciones/restaurante-herencia.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/-Jar-H5dIGA/hqdefault.jpg" alt="Restaurante — La Herencia Olvidada" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 08</span>
+            <span class="osd tape-osd tr">JUN.22 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">26:20</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#08</span>
+            <h3 class="tape-name">Restaurante — La Herencia Olvidada</h3>
+          </div>
+          <p class="tape-text">Un restaurante de eventos abandonado entre restos de bodas y bautizos. Tras sus muros, una historia de herencia, disputa familiar y abandono definitivo.</p>
+        </a>
+        <a href="/investigaciones/fabrica-abandonada.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/i0V-Z5xZnGM/hqdefault.jpg" alt="La Fábrica Abandonada" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 07</span>
+            <span class="osd tape-osd tr">JUN.15 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">33:28</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#07</span>
+            <h3 class="tape-name">La Fábrica Abandonada</h3>
+          </div>
+          <p class="tape-text">Una antigua fábrica algodonera, textil y de lienzos, llena de telas, vinilos y libretas olvidadas. En plena investigación, pasos muy cerca: no estábamos solos.</p>
+        </a>
+        <a href="/investigaciones/masia-siglo-xi.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/7MXmSyKsec4/hqdefault.jpg" alt="Masía del Siglo XI" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 06</span>
+            <span class="osd tape-osd tr">JUN.08 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">24:03</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#06</span>
+            <h3 class="tape-name">Masía del Siglo XI</h3>
+          </div>
+          <p class="tape-text">Una masía de más de 150 años en torno a una torre del siglo XI: saqueada en la Guerra de la Independencia y abandonada desde los 80. Sensores y pelotas de energía para contactar.</p>
+        </a>
+        <a href="/investigaciones/la-puda-psicofonias.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/nR0aEtGWnZI/hqdefault.jpg" alt="La Puda de Montserrat — Psicofonías" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 05</span>
+            <span class="osd tape-osd tr">JUN.01 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">28:09</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#05</span>
+            <h3 class="tape-name">La Puda de Montserrat — Psicofonías</h3>
+          </div>
+          <p class="tape-text">Regresamos al antiguo balneario de La Puda, repleto de psicofonías y tensión extrema. Un enclave donde se dice que quedan portales abiertos por rituales entre sus muros.</p>
+        </a>
+        <a href="/investigaciones/casa-talamanca.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/2T3MUeZsacQ/hqdefault.jpg" alt="La Casa de Talamanca" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 04</span>
+            <span class="osd tape-osd tr">MAY.25 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">21:01</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#04</span>
+            <h3 class="tape-name">La Casa de Talamanca</h3>
+          </div>
+          <p class="tape-text">Investigación nocturna en una vivienda de Talamanca que nunca llegó a terminarse. Captamos varias psicofonías inquietantes y sonidos sin explicación.</p>
+        </a>
+        <a href="/investigaciones/casa-prohibida-2.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/GO7cf9rBY90/hqdefault.jpg" alt="La Casa Prohibida (Parte 2)" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 03</span>
+            <span class="osd tape-osd tr">MAY.18 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">12:11</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#03</span>
+            <h3 class="tape-name">La Casa Prohibida (Parte 2)</h3>
+          </div>
+          <p class="tape-text">Segunda parte de la exploración a esta casa repleta de reliquias. No pudimos hacer la sesión de psicofonías: nos descubrieron, nos echaron y avisaron a la policía.</p>
+        </a>
+        <a href="/investigaciones/masia-tinajas.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/9owuBb0xJpc/hqdefault.jpg" alt="La Masía de las Tinajas" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 02</span>
+            <span class="osd tape-osd tr">MAY.14 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">9:53</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#02</span>
+            <h3 class="tape-name">La Masía de las Tinajas</h3>
+          </div>
+          <p class="tape-text">Una masía abandonada con las pertenencias de sus dueños aún en su sitio: objetos intactos y tinajas de vino centenarias. ¿Por qué nadie volvió a recoger sus cosas?</p>
+        </a>
+        <a href="/investigaciones/masia-mas-alla.html" class="tape-card">
+          <div class="tape-screen">
+            <img src="https://img.youtube.com/vi/Vn0e7CcTXUY/hqdefault.jpg" alt="La Masía del Más Allá" loading="lazy" width="480" height="360" />
+            <span class="osd tape-osd tl">Cinta 01</span>
+            <span class="osd tape-osd tr">MAR.13 2023</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">25:59</span>
+          </div>
+          <div class="tape-spine">
+            <span class="tape-num">#01</span>
+            <h3 class="tape-name">La Masía del Más Allá</h3>
+          </div>
+          <p class="tape-text">Investigación en una masía perdida en la montaña, junto a El Camino Paranormal & Urbex. Captamos numerosas psicofonías y logramos fotografiar entes durante la sesión.</p>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="eject">
+      <div class="scanlines"></div>
+      <p class="osd eject-osd">■ Stop</p>
+      <h2>La próxima cinta se graba de noche</h2>
+      <p>Suscríbete al canal para no perderte la siguiente investigación, o lee los testimonios que nos habéis enviado.</p>
+      <div class="tape-actions">
+        <a href="https://www.youtube.com/channel/UC5ooPVBZplLiqx4PbtVxVrw?sub_confirmation=1" class="btn-vhs" target="_blank" rel="noopener">● Suscribirse</a>
+        <a href="/historias/" class="btn-vhs ghost">Leer historias</a>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -76,11 +371,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Enclave Paranormal. Documentación con fines investigativos.</p>
+        <p>© 2026 Enclave Paranormal. Documentación con fines investigativos.</p>
       </div>
     </div>
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
 </body>
 </html>

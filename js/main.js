@@ -14,7 +14,7 @@ document.querySelectorAll('.nav-links a').forEach(a => {
 
 // Particles
 const container = document.getElementById('particles');
-const COUNT = 35;
+const COUNT = container ? 35 : 0;
 for (let i = 0; i < COUNT; i++) {
   const p = document.createElement('div');
   p.className = 'particle';
@@ -31,7 +31,7 @@ for (let i = 0; i < COUNT; i++) {
 }
 
 // Form submit
-document.getElementById('reportForm').addEventListener('submit', e => {
+document.getElementById('reportForm')?.addEventListener('submit', e => {
   e.preventDefault();
   const btn = e.target.querySelector('button[type=submit]');
   btn.textContent = 'Enviando...';
