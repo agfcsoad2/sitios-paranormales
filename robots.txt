@@ -1,3 +1,15 @@
+# Herramientas SEO y buscadores que no traen visitas: solo consumen recursos
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: PetalBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: Bytespider
+Disallow: /
+
+# El resto (Google, Bing, Apple, ChatGPT, Perplexity, Facebook…) puede entrar
 User-agent: *
 Allow: /
 
