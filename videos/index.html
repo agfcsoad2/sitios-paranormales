@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vídeos Cortos Paranormales — Enclave Paranormal</title>
-  <meta name="description" content="Shorts y clips de investigaciones paranormales. Lo más impactante de Enclave Paranormal en formato breve en YouTube." />
+  <meta name="description" content="Todos los Shorts de Enclave Paranormal: clips de exploraciones urbex, psicofonías y lugares abandonados. Lo más impactante en formato breve." />
   <meta name="keywords" content="vídeos paranormales, shorts paranormal, clips terror, YouTube paranormal, Enclave Paranormal" />
   <meta name="author" content="Enclave Paranormal" />
   <meta name="robots" content="index, follow" />
@@ -13,7 +13,7 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Vídeos Cortos Paranormales — Enclave Paranormal" />
-  <meta property="og:description" content="Shorts y clips de investigaciones paranormales. Lo más impactante de Enclave Paranormal en formato breve en YouTube." />
+  <meta property="og:description" content="Todos los Shorts de Enclave Paranormal: clips de exploraciones urbex, psicofonías y lugares abandonados. Lo más impactante en formato breve." />
   <meta property="og:url" content="https://enclaveparanormal.com/videos/" />
   <meta property="og:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
   <meta property="og:site_name" content="Enclave Paranormal" />
@@ -22,20 +22,25 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Vídeos Cortos Paranormales — Enclave Paranormal" />
-  <meta name="twitter:description" content="Shorts y clips de investigaciones paranormales. Lo más impactante de Enclave Paranormal en formato breve en YouTube." />
+  <meta name="twitter:description" content="Todos los Shorts de Enclave Paranormal: clips de exploraciones urbex, psicofonías y lugares abandonados. Lo más impactante en formato breve." />
   <meta name="twitter:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+  <link rel="stylesheet" href="/css/investigaciones.css" />
+  <link rel="stylesheet" href="/css/videos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body class="home">
 
-  <nav class="nav scrolled" id="nav">
+  <canvas class="vhs-noise" id="vhsNoise" aria-hidden="true"></canvas>
+
+  <nav class="nav" id="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="/"><img src="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" alt="Enclave Paranormal" class="footer-logo-img"/> Enclave Paranormal</a>
       <ul class="nav-links" id="navLinks">
         <li><a href="/investigaciones/">Investigaciones</a></li>
-        <li><a href="/videos/" style="color:#a855f7">Vídeos cortos</a></li>
+        <li><a href="/videos/" aria-current="page" style="color:#a855f7">Vídeos cortos</a></li>
         <li><a href="/spiritpet/">SpiritPet</a></li>
         <li><a href="/nosotros/">¿Quiénes somos?</a></li>
       </ul>
@@ -43,62 +48,347 @@
     </div>
   </nav>
 
-  <div class="page-hero">
-    <div class="page-hero-bg"></div>
-    <div class="page-hero-content">
-      <a href="/" class="back-link">← Volver al inicio</a>
-      <p class="section-tag">Contenido</p>
-      <h1 class="page-title">Vídeos cortos</h1>
-      <p class="page-sub">Clips y fragmentos de nuestras investigaciones. Lo más impactante en formato breve.</p>
+  <header class="vt-hero cctv-hero">
+<!-- auto:videos-mosaico -->
+    <div class="vt-hero-bg" aria-hidden="true"><div style="background-image:url('https://i.ytimg.com/vi/rtF1-7WYu6Q/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/w77giuO3mUk/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/aE9VhEp0LU4/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/cr4-AbxH56Y/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/BScV3AeQVRo/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/LkeSl_KUGQ8/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/fbxHthJeWjI/oar2.jpg')"></div><div style="background-image:url('https://i.ytimg.com/vi/5uoMDQPg56U/oar2.jpg')"></div></div>
+<!-- /auto:videos-mosaico -->
+    <div class="scanlines"></div>
+    <div class="vt-hero-inner">
+      <a href="/" class="osd vt-back">◀◀ Rebobinar al inicio</a>
+      <p class="osd vt-kicker"><span class="rec-dot"></span>Sala de vigilancia · YouTube Shorts</p>
+      <h1 class="vt-title">Vídeos cortos</h1>
+      <p class="vt-sub">Todas las cámaras de nuestras exploraciones: lo que vimos, lo que oímos y lo que no supimos explicar, en menos de un minuto.</p>
+<!-- auto:videos-display -->
+      <div class="vcr-display" aria-label="Resumen de la sala">
+        <p class="vcr-stat">349<small>Cámaras</small></p>
+        <p class="vcr-stat">223K<small>Visualizaciones</small></p>
+        <p class="vcr-stat red">● Rec<small>Grabando</small></p>
+      </div>
+<!-- /auto:videos-display -->
+    </div>
+  </header>
+
+  <div class="vt-controls">
+    <div class="vt-controls-inner" role="group" aria-label="Ordenar vídeos">
+      <span class="osd vt-controls-label">Orden ▸</span>
+      <button class="vt-btn" data-sort="recientes" aria-pressed="true">Recientes</button>
+      <button class="vt-btn" data-sort="vistos" aria-pressed="false">Más vistos</button>
+      <span class="osd cctv-status" id="camStatus" aria-live="polite"></span>
     </div>
   </div>
 
-  <section class="section">
+  <main class="cctv">
     <div class="container">
-      <div class="section-header">
-        <p class="section-tag">YouTube Shorts</p>
-        <h2 class="section-title">Vídeos cortos</h2>
-        <p class="section-sub">Lo más impactante de nuestras investigaciones en formato breve.</p>
+      <div class="cam-grid" id="camGrid">
+<!-- auto:videos-camaras -->
+        <a class="cam" href="https://www.youtube.com/shorts/LnAmDAov24g" data-id="LnAmDAov24g" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/LnAmDAov24g/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 349</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">245</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Visita al hotel Panik, uno de los enclaves con más actividad paranormal que hayamos visitado</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/2Yvp3BSh5Oc" data-id="2Yvp3BSh5Oc" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/2Yvp3BSh5Oc/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 348</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,8K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Increíble lo que encontramos en esta casa abandonada</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/qq0Gdn8RRfE" data-id="qq0Gdn8RRfE" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/qq0Gdn8RRfE/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 347</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">2K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Quien dormía aquí en el pasado?</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/QksjGILzwrw" data-id="QksjGILzwrw" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/QksjGILzwrw/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 346</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">208</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Documentos encontrados en casa abandonada</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/VLxuFigay4I" data-id="VLxuFigay4I" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/VLxuFigay4I/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 345</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">571</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">La entrada de esta espeluznante casa abandonada</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/YhHRkg13QHg" data-id="YhHRkg13QHg" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/YhHRkg13QHg/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 344</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">114</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Oscuridad total</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/nTX_vFMU5Xk" data-id="nTX_vFMU5Xk" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/nTX_vFMU5Xk/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 343</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">326</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Espectacular pasillo de este sitio abandonado</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/U5ij_2FLEh4" data-id="U5ij_2FLEh4" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/U5ij_2FLEh4/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 342</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">209</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">La misteriosa Puda de Montserrat</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/E-s3cMPGQds" data-id="E-s3cMPGQds" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/E-s3cMPGQds/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 341</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">13</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Salas misteriosas</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/DXtn0j7JS4g" data-id="DXtn0j7JS4g" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/DXtn0j7JS4g/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 340</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">62</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Los salones del balneario abandonado</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/6dt8hdacUV4" data-id="6dt8hdacUV4" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/6dt8hdacUV4/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 339</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">25</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Misterios de la Puda</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/05o6ID3S-9U" data-id="05o6ID3S-9U" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/05o6ID3S-9U/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 338</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">544</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Sabes cuál es este lugar abandonado?</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/3wCsPv2Q0w4" data-id="3wCsPv2Q0w4" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/3wCsPv2Q0w4/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 337</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">100</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Intrigante lugar abandonado</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/2BzzYg4UDBs" data-id="2BzzYg4UDBs" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/2BzzYg4UDBs/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 336</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">19</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">No estábamos solos</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/lByXKOnMSO0" data-id="lByXKOnMSO0" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/lByXKOnMSO0/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 335</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">471</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Escuchamos una voz muy extraña, será un ente?</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/6vzzFoU9TIU" data-id="6vzzFoU9TIU" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/6vzzFoU9TIU/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 334</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">907</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">No estamos solos</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/mCdfo5CJgEE" data-id="mCdfo5CJgEE" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/mCdfo5CJgEE/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 333</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,1K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Se vuelven locos los aparatos!</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/kUH8c0GDw1o" data-id="kUH8c0GDw1o" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/kUH8c0GDw1o/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 332</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">316</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Entramos en la Masía 20 👻 No podrás olvidarlo</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/BKpNHjHK6hg" data-id="BKpNHjHK6hg" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/BKpNHjHK6hg/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 331</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,5K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Es un ente? Un fantasma? O solo un reflejo?</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/GFDvjAeYZp4" data-id="GFDvjAeYZp4" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/GFDvjAeYZp4/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 330</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">35</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">INCREÍBLE HABITACIÓN EN CASA ABANDONADA lona</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/4deWGKPbnjw" data-id="4deWGKPbnjw" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/4deWGKPbnjw/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 329</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,4K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Mansión abandonada en medio de la nada</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/cDRy51U-Uxw" data-id="cDRy51U-Uxw" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/cDRy51U-Uxw/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 328</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,3K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Lo que había en esta fábrica abandonada 😱</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/JSAFyc1TZ60" data-id="JSAFyc1TZ60" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/JSAFyc1TZ60/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 327</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">14</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Todo lo que encontramos en esta casa abandonada 😱😱</p>
+        </a>
+        <a class="cam" href="https://www.youtube.com/shorts/UOwN0UWSYKE" data-id="UOwN0UWSYKE" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/UOwN0UWSYKE/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam 326</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">1,1K</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">Espectacular castillo abandonado!</p>
+        </a>
+<!-- /auto:videos-camaras -->
+      </div>
+      <div class="cctv-more" id="camMore">
+        <button class="btn-vhs ghost" type="button">▼ Cargar más cámaras</button>
       </div>
     </div>
-    <div class="shorts-strip-wrap">
-      <div class="shorts-strip">
+  </main>
 
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/6vzzFoU9TIU" title="Short 1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/mCdfo5CJgEE" title="Short 2"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/GFDvjAeYZp4" title="Short 3"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/4deWGKPbnjw" title="Short 4"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/cDRy51U-Uxw" title="Short 5"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/JSAFyc1TZ60" title="Short 6"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="short-item">
-          <iframe src="https://www.youtube.com/embed/xskisjWIpyo" title="Short 7"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-      </div>
-    </div>
-    <div class="container" style="text-align:center;margin-top:40px;">
-      <a href="https://www.youtube.com/channel/UC5ooPVBZplLiqx4PbtVxVrw/shorts" target="_blank" rel="noopener" class="btn-primary">Ver todos los Shorts en YouTube →</a>
+  <section class="eject">
+    <div class="scanlines"></div>
+    <p class="osd eject-osd">■ Fin de la transmisión</p>
+    <h2>Cada semana, cámaras nuevas</h2>
+    <p>Subimos clips de cada exploración. Síguenos para verlos antes que nadie.</p>
+    <div class="tape-actions">
+      <a href="https://www.youtube.com/channel/UC5ooPVBZplLiqx4PbtVxVrw/shorts" class="btn-vhs" target="_blank" rel="noopener">▶ Shorts en YouTube</a>
+      <a href="https://www.tiktok.com/@enclave.paranormal" class="btn-vhs ghost" target="_blank" rel="noopener">♪ TikTok</a>
     </div>
   </section>
+
+  <dialog class="cam-modal" id="camModal" aria-label="Reproductor de vídeo">
+    <div class="cam-modal-inner">
+      <button class="cam-nav prev" type="button" aria-label="Vídeo anterior">◀◀</button>
+      <div>
+        <div class="crt-frame cam-crt">
+          <div class="crt-bar">
+            <span class="osd" id="camModalNum">CAM</span>
+            <span class="osd"><span class="rec-dot"></span>Rec</span>
+          </div>
+          <div class="cam-player"><iframe id="camPlayer" title="Vídeo corto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div class="crt-bar bottom">
+            <span class="osd" id="camModalViews"></span>
+            <a class="osd" id="camModalYt" href="#" target="_blank" rel="noopener">Ver en YouTube ▸</a>
+          </div>
+        </div>
+        <p class="cam-modal-title" id="camModalTitle"></p>
+      </div>
+      <button class="cam-nav next" type="button" aria-label="Vídeo siguiente">▶▶</button>
+      <button class="cam-close" type="button" aria-label="Cerrar">✕ Stop</button>
+    </div>
+  </dialog>
+
+<!-- auto:videos-datos -->
+  <script type="application/json" id="shortsData" data-inicial="24">[["LnAmDAov24g","Visita al hotel Panik, uno de los enclaves con más actividad paranormal que hayamos visitado",245],["2Yvp3BSh5Oc","Increíble lo que encontramos en esta casa abandonada",1800],["qq0Gdn8RRfE","Quien dormía aquí en el pasado?",2000],["QksjGILzwrw","Documentos encontrados en casa abandonada",208],["VLxuFigay4I","La entrada de esta espeluznante casa abandonada",571],["YhHRkg13QHg","Oscuridad total",114],["nTX_vFMU5Xk","Espectacular pasillo de este sitio abandonado",326],["U5ij_2FLEh4","La misteriosa Puda de Montserrat",209],["E-s3cMPGQds","Salas misteriosas",13],["DXtn0j7JS4g","Los salones del balneario abandonado",62],["6dt8hdacUV4","Misterios de la Puda",25],["05o6ID3S-9U","Sabes cuál es este lugar abandonado?",544],["3wCsPv2Q0w4","Intrigante lugar abandonado",100],["2BzzYg4UDBs","No estábamos solos",19],["lByXKOnMSO0","Escuchamos una voz muy extraña, será un ente?",471],["6vzzFoU9TIU","No estamos solos",907],["mCdfo5CJgEE","Se vuelven locos los aparatos!",1100],["kUH8c0GDw1o","Entramos en la Masía 20 👻 No podrás olvidarlo",316],["BKpNHjHK6hg","Es un ente? Un fantasma? O solo un reflejo?",1500],["GFDvjAeYZp4","INCREÍBLE HABITACIÓN EN CASA ABANDONADA lona",35],["4deWGKPbnjw","Mansión abandonada en medio de la nada",1400],["cDRy51U-Uxw","Lo que había en esta fábrica abandonada 😱",1300],["JSAFyc1TZ60","Todo lo que encontramos en esta casa abandonada 😱😱",14],["UOwN0UWSYKE","Espectacular castillo abandonado!",1100],["xskisjWIpyo","Increíble habitación en casa adosada a restaurante abandonado",23],["ksQveHY11eA","Increíble casa abandonada",1600],["w77giuO3mUk","Lo que encontramos en esta exploración de casa abandonada! Quédate hasta el final",6800],["BSV87VnsTso","Visitando el dolmen de las brujas",1400],["esspHQJ_NFo","Qué colgaban aquí?",1600],["i3yEiXkEcsk","Exploración en lugar abandonado",111],["XjRDv0geQhY","En pleno abandono",576],["AEDZ8ufgLgw","El despacho 💀",444],["GcliYCzr18E","Terrorifica actividad paranormal en lugar abandonado ¿Estás preparado?",36],["NRMDoI4oL3w","Espeluznante lugar",597],["fbxHthJeWjI","Habitación del cura",4200],["gS23FEK80o8","La masía del cura",510],["zqKjNHYLVWs","Alucinante este lugar",465],["d-yi44amaKg","Investigando lo paranormal",1400],["FBjekNAMpi4","Abandonos increíbles",535],["qT7plmMNBr4","Increíble esta masía 😮‍💨",396],["SFaxp3xUoy4","La masía del cura",536],["CCjNflEKiUw","Espeluznante lugar",28],["yPDp6-GuWK4","Fábrica abandonada",1100],["FKTb-RmyDrU","Increíble lugar abandonado",451],["A3Zozup3erA","Dentro de la masía",522],["Yv4QOpFS5h4","Investigamos actividad paranormal en este lugar abandonado",1500],["Zaw-LNNVX0U","La masía 1827",194],["DDaIZyRrmro","Entrarías SOLO en este lugar? 😮‍💨",642],["wafw57KfsK0","Fábrica abandonada",2200],["k3uwvqGJuYg","Tremendo lo que nos pasó aquí",462],["dCcb5exULKM","Increíble está psicofonia 😮‍💨",29],["W4hBKX7ySeo","Increíble lo que nos pasó aquí 😮‍💨",621],["2D_avbk89WA","Presencias en torre salvana",440],["JExHs94svYo","Investigación paranormal",427],["uFM6P5tx-z0","El castillo del infierno",198],["nsfR88jbuNE","La masía del cura",34],["YIhcJ606YTU","Increíble está casa",473],["K3GPwglKtrE","Increíble lugar",51],["3ML5BoQUz8Q","Increíble restaurante abandonado",523],["HuKLbrY6OXs","Masia abandonada",291],["PYLH2qI_D58","Evidencia paranormal: puerta que se cierra sin explicación",465],["3eRdPTpixls","Posesión terrorífica en hotel abandonado",26],["aE9VhEp0LU4","Nos perdemos en este lugar",6000],["opfgeWDNBEE","Increíble lugar en abandono",117],["rNeOd2thC4c","Increíble torre del infierno",36],["WiHEuElxB7k","Espectacular masía abandonada",363],["Y3AdnOHsDZQ","Increíble masía abandonada",123],["5CehOmk1cd0","Encontramos una ouija",938],["GcLYEWRHPII","Increíble hallazgo. Todo destrozado",1000],["NS_AFl2nPbY","Tremendo lugar…",418],["d-e6xWUV5i4","Increíble restaurante abandonado",1200],["b0SHb4l_ITw","Increíble, fotos de la familia",236],["4xn_6FH-RmY","Increíble hotel abandonado",2500],["sYfLx46Stgw","Misterioso pasillo",38],["nKtrjklNeXc","Increíble psicofonia captada",2200],["zBsW22ySZmw","Increible fantasma captado torre salvana",224],["14yasxyTZnk","Simbolo del diablo 👹",269],["6bG07e6RSh8","Increíble castillo del infierno",22],["TFIB7HCE8Us","Increíble exploración",2400],["nvIc4id-yiE","Increíble restaurante abandonado",2400],["or5tDVS_PTI","INCREÍBLE residencia de ancianos ABANDONADA",43],["zNNXJjMdbDI","INCREÍBLE MASÍA del CURA",27],["RAtlFCu-_qo","ESPECTACULAR lugar",20],["_DLOOwtrbOs","ESPECTACULAR torre del INFIERNO",449],["Uq1OUbXnaP0","ESPECTACULAR masía ABANDONADA",2400],["BScV3AeQVRo","Increíble hallazgo",5000],["3VAS8uhwJc4","Increíble lugar, baño antiguo",37],["CRQW34rqoBA","Increíble lugar, no estábamos solos",29],["UenFwXlfYdE","Espectacular capilla del cura",2200],["hGByoTIjPk0","Increíble hallazgo, cocina antigua",36],["y-5paUkp1ow","INCREÍBLE lugar en ABANDONO",22],["rtF1-7WYu6Q","Increíble hallazgo, CAPILLA del CURA",8000],["LkeSl_KUGQ8","Increíble lugar ABANDONADO",4400],["sEjW60jmFcU","INCREÍBLE lugar SOLITARIO",39],["sO0vVgoC74g","Increíbles FOTOS de los DUEÑOS de esta casa 🖼️",414],["Ob5pW6XmBIE","Increíble lugar!!",2400],["n9ufyNcZR0U","Las OUIJAS son PELIGROSAS ⚠️",289],["MU1pTG62xCc","Abriéndonos paso en la OSCURIDAD",2400],["mdJ-9bQ-EA8","Camino hacia OSCURIDAD",1900],["y4zVk4xBzC4","Increíble pasillo siniestro",2500],["L_NsT2pK0Zo","Espíritus en la puda",231],["mfrZO4Z9aCM","POSESIÓN a nuestra COMPAÑERA😰",40],["EVlavp7lqIs","La HABITACIÓN de los ABUELOS 👴🏻👵🏻",176],["l7dhDEuivgc","Increíble psicofonia",101],["Zope-gqomvc","POSESIÓN a nuestra COMPAÑERA 😵",69],["nlqyPuMIfyA","La CASA de los JUGUETES 🧸",39],["5uoMDQPg56U","Ouija en lugar abandonado",4200],["JJ2T-k4h2pQ","Investigación paranormal",135],["0HfawHwhJug","Un baño muy ANTIGUO 😵",100],["QJ-qCIt0oso","La POSESIÓN en hotel ABANDONADO",180],["N-zYFq4tLh8","Que nos observa?",46],["y4LAfqOIa8o","Menuda noche pasamos… 😨",31],["E6jJuXD6vDE","Restaurante ABANDONADO 🥵",30],["DPHWozrsfIQ","La casa de los juguetes 🧸",49],["mAarpT60qNQ","Las fotos de los difuntos ✝️",229],["EYm2gjZf9TA","La habitación del niño😨",444],["usrdzRAw1OE","Al final del oscuro pasillo…",41],["tm4ZFn0Lwps","⚠️ouija en capilla⚠️",844],["m7mc3vNKonU","Un antiguo baño",277],["CqalXRrEkqA","No entres sólo aquí 😮‍💨",154],["g9OOUGsJ-sQ","Ya disponible, el hotel panik 👹",38],["NdPmaePeHYs","👹Ouija encontrada👹",108],["l4APmXeJsxc","Hallazgo, la masia del infierno.",149],["cIivB-pqHSY","Las sombras nos acechan 😰",89],["-Q3p7tlWSAc","Muchísima actividad paranormal 😮‍💨",61],["CtueJfAVTdk","La imponente Torre Salvana",207],["MJXr2Ii3tAw","No querían que estuviéramos ahí.",108],["HU_Dzfh4CEo","Vaya susto nos dimos 😥",50],["OCD3u4KoyBU","La oscuridad nos rodeaba",58],["K1t94CaTDu8","Increíble hallazgo en abandono.",2200],["gxZiVzJgptw","Terrorífico momento😵‍💫",930],["lTi3UdQM5R0","Que misterio 😱",352],["zE2bC1Z_4ac","Quien dormía en esta habitación?😱",181],["ONw0apZxf8U","Cajas llenas de libros 😱",314],["P0yKja_wmu0","Había algo? 😱😱",3400],["r2ijfiqI7ao","Casa muy antigua abandonada y destruida",407],["RqjUlF0KM10","Ventana De la Iglesia abandonada",3200],["0KzXo80T6l0","Tocan a nuestro compañero",179],["cLXvnGQfpRg","La casa De la Iglesia😳",49],["8UcJUTTP9ho","Nos adentramos en un cortijo",111],["VxGACzeyddc","Camino a la Oscuridad",885],["0yPm8_YYc1k","Castillo del infierno",85],["jalowLDpb80","No estábamos solos",49],["fqdG-Txuml8","No te lo pierdas 😈",115],["_MetzzNSff8","Derrumbado total, una pena😥",45],["f2Bhtn9OZEU","Me sentía muy observada en este momento🥵",400],["mdMYFXn4VTU","Un baño antiguo",2600],["jxotULEF9UM","Camas Voladoras",135],["KpMS2P3cl0o","Investigación paranormal",62],["dzOzHL5XLWg","Que es esto?",22],["bn8M8DuiNNA","Después de la investigación paranormal",55],["P36wCxnkncU","Noche paranormal en la icónica torre Salvana",369],["YOgGvhLYC6g","Entrando en la casa",186],["y03I1qs7iho","Habitación del matrimonio",116],["kCz8XXNnuec","En busca de psicofonias",211],["YIuPFYHI2mo","Estación abandonada",639],["kIHtmdAyqzA","What’s Hiding Inside This Ancient Wall?",2100],["MvD8vM7v7ss","Interior castillo del infierno 2023",2100],["wPxCx_z7mfw","Camino a la casa perdida",293],["vGkvTc1QoSw","La almohada de piedra 😱",2300],["sOrbbRyCZRk","Buscando la casa en el bosque",171],["MpdtfKJqw0E","Impactante: Jabalí suelto en el parking del Carrefour 😱 ¡No podrás creerlo!",438],["zF_jkDvBIHc","Que pasó en esta casa?😢",447],["vscMIbGtR9Q","En la Ermita maldita😵‍💫",122],["e-N0eSlRzfc","Próximo vídeo en el canal",41],["6r6bAnFKaPM","Noche del infierno",113],["rmi0VenaRMM","La habitación de los dueños",523],["hTdlU0k_J5s","La casa Triste",13],["f8r4GVTYQV8","Actividad Paranormal",319],["V8UQcFXfth0","La casa del cura",244],["JiNwWNUjPRk","El terror acechaba🥵",267],["A23LcPdAwDA","Increíble Hallazgo😱",112],["tz63EMRaE78","Investigación PARANORMAL",602],["Jhe0fsUJDMI","El bosque Maldito",127],["kMz3dPd5H28","Investigación",255],["5eXtCPn7W_s","oscuridad en el castillo del infierno",242],["r3A1D5rZq_g","El Castillo del Infierno🔥",544],["G1ONwErG8xg","El castillo del infierno",71],["P_dOYNFR-Fk","Oscuridad",3700],["SHZdVa5jKxo","¿Que hay dentro?😱",406],["042XDpi6cug","Hotel Panik",28],["ldlrxQzWmJA","Por fin REMPOD",36],["kbFk8ruso5s","El Geriátrico",177],["OiaRrDMnUS0","Torre Salvana🕍",571],["Pu2jbheERd8","Castillo del infierno",189],["GXO9eNjZylM","Castillo del infierno",211],["qwgtR8dPAeg","Hotel Pánico",1800],["pN-Xy59nSYc","Pleno abandono",1700],["jmZ9pfMSh7Q","El terror acecha 😈",18],["x7T2aA_vLfU","No te lo pierdas 💀",216],["UFSkUqVWkik","La casa de los juguetes 🧸",670],["NEjKsWNka2k","Increíble lugar",392],["4E0hL45RxdY","En la ermita",289],["a9ze7L0ysCc","No entres solo💀",361],["sWdkoBPT7Rs","Increíble abandono",859],["c7LWzLodKFY","Oscuridad en el bosque",706],["_of6Og_JBGk","Casa del cura",650],["Vi-v_h1fMe0","El terror acecha💀",307],["v4Xj9sus7O0","Siniestro😵‍💫",2500],["LOX8QwLqLOM","Abandono total",241],["DaKnCslawe0","Casa de los 🧸",2800],["VN8mzuwdOwo","Reliquias olvidadas",2200],["zpp9aLEO9Dw","Increíble lugar😈",1500],["x534EfEcfgQ","El terror acecha",225],["vGr1U0KQK7Y","Terror en el bosque",2000],["f99Om-mF0vU","Hotel panik",2400],["6d579izwbs0","Recuerdos olvidados",137],["5Qk3vLJNOmE","Que pasó aquí?😰",137],["m3YlfFaFYU4","Proteccion a mi amiga y médium🚫👹",1100],["XsF8aoCKJ-w","Terrorífico 💀",717],["c_QHDtspfKo","No te lo pierdas!👍🏻",109],["SSgTv2TNQeQ","Hotel Panik",17],["HDhUv19uLFo","El símbolo del diablo👹",170],["2dQdL2mOoys","Solos en el bosque 🏚️",359],["e5D7rjAvWhQ","No le mires a los ojos 😵",59],["WwIwUrbHmiM","Lugar Maldito 🏚️",462],["snpmNRxnNV8","Horror en este lugar 💀",170],["FKfdXgTZ_2U","Este pasillo es el infierno 💀",963],["VN9g33X8iCE","La familia abandonó todo",306],["RcmJwq6Umm8","Hotel Panik 💀",886],["LfeHc1MfH14","La Guarida del cura",103],["-80UdTZVy0k","Maravilloso hallazgo",429],["cCBdNlsDzdE","La Guarida ✝️",81],["VZTShtj_uwM","Maravilloso enclave",58],["61O-mF139-U","Tesoros olvidados🏚️",1000],["SwP4vFFJkpg","El pozo del cura✝️",594],["hg57wnk_GYM","Aterrador lugar 😈",82],["QIRK_ixrdZ8","Entra y no saldrás😈",202],["LUIDoF7oekk","Increíble hallazgo🏚️",916],["ofMgm8cSlFQ","Es peligroso estar aquí ⚠️",121],["3C_R95mgcg0","La Masía sin acceso⛔️",131],["tBIpl7b1ZFU","Un ambiente de tristeza y dolor 😣",67],["R-WfQfb-H6Q","Tesoros Olvidados💀",384],["ae8qeLERFow","La cocina del cura✝️",401],["FJDxBuEAPtc","Las almas de este lugar perduran💀",549],["jsKdA8MS1yI","La capilla del cura✝️💀",330],["-hpB1Ip9H4A","La masía del cura✝️",378],["hP3Zt2VydRQ","La Ropa del Difunto 💀",208],["vTbwS6yX2xE","Aquí se congeló el tiempo👨‍👩‍👧‍👧",121],["HsoTaAY1jso","Misterioso Castillo",124],["KVQ-UQ_fY4U","Tuvimos que huir👹",481],["-98eaLT3ZrI","Terror en el Restaurante💀",1800],["ilOyC3DVQAY","La habitación de los difuntos 💀",1600],["NndMT7Y5Jak","Restaurante Maldito 👹🤫",77],["cr4-AbxH56Y","Nos tiran una piedra😱",5500],["t1C5RSQM7_0","Lo dejaron todo aquí",33],["vQqfLAWBUZc","Fábrica abandonada 😰",99],["HU5lw_E8J9w","Abandono… 😈",1800],["15PFe2Dodxk","La oficina abandonada😨",125],["B5ET4NRqCVE","Investigación en la fábrica",327],["4Ubvd3wdIOc","Actividad Paranormal 👹",162],["8LrS5YLnWhQ","No le mires a los ojos🐻👹",2000],["hQoe-laN5R8","Encontramos la casa de los dueños😱",458],["vBeheeplTuU","Explorando el Terror 🤫",3000],["dYMIYmpFkWs","Terror en el Restaurante",99],["wA4QQHXEltc","El salón del terror 😰",1300],["p5I76eNlEKk","La habitación del horror😱",96],["oreYSFJVwg4","Restaurante Sangriento",3400],["wTmnCD2Gr5A","Abandono total",289],["CuBJqrGeC0c","Despacho en olvido",37],["_N19A5bYC-k","Muchísima energía en este lugar",120],["Clt9wBI_nXE","Voces en la ermita.",707],["-trI_RWQYlI","Escalofríos en este lugar",1200],["LG6jJ-P5MGQ","Lugar escalofriante",105],["WasfqvGlGUA","Puro Terror",1900],["o31KwyOxkNg","Increíble PSICOFONÍA captada!",940],["LEV8kKUOqcA","Vimos a la mujer, terror! 😰",517],["AkQA2_522yc","Descubrí una libreta de los años 80!",44],["ehh4J3U-Kl0","Descubriendo el pasado entre hilos y ruinas",186],["jQ8byC-XdX0","Increíble material que aún queda en esta fábrica",161],["DnPBC1YbO-g","Libros intactos en fábrica abandonada",31],["beY-dYCSMtI","Que hay en el sótano?😵‍💫",150],["og2nV9xBmoQ","Sola en fabrica abandonada 😮‍💨",173],["6m1JaP14-2M","Próximamente dentro de esta fábrica 🏭",1200],["0BN9IC2syks","Vistas exterior del castillo abandonado",308],["DP0trHK9DNA","Espectacular horno en casa abandonada",51],["2DLL2lviEc8","Entrando a una fábrica abandonada",1800],["1ngRxacoItk","Garaje de la casa muy destruido!",392],["N_l-OGKtDfg","Gruñido escalofriante 😱😱",119],["jwDIQ2Sc4lE","Increíble geriátrico abandonado",1200],["fgiI8_GA1H0","Lo que queda de este geriátricoabandonado",71],["ROckOR7MTow","Increíble el interior de esta casa.",1500],["TKpSgEvxf_A","Exploración en increíble casa abandonada",96],["Rmz1vgnomJY","Que hay detrás de la puerta?",604],["ShxDAALQhnY","Salón totalmente destruido",157],["dIR5ydVWjmg","En el sótano de la casa abandonada",298],["76OkT-6Bg2c","Alucinante como está la casa por dentro",50],["bmAcE9_5p4c","Habitación de la casa abandonada",296],["t1S4ylLd-7w","Que le hicieron a este perro? Parece poseido",60],["7PFoCk6Chuc","Muebles con cosas de la casa abandonada",190],["OHDEFfiEUow","Que hay detrás del colchón? 😱😱",1500],["XTe-4UWsTNU","Estación de tren renfe abandonada",694],["By3Rx1AoKTY","Increíble lo que hay en la cocina casa abandonada",494],["88GLpFZtUlM","Investigación en casa abandonada",1200],["raZ3zOp0C4I","Grabación sin título",105],["W9zbun2UB0Q","Grabación sin título",57],["tXV0guQefpk","Grabación sin título",90],["qysJnRIHq18","8 de abril de 2023",14],["gyCeMU76zAs","Terrorífico",33],["IRhmaNTbJ0A","Grabación sin título",5],["VnFyd1fpJAo","🦇🦇",211],["li16e_awoiE","En medio del bosque",99],["t6xBzVPu020","Espeluznante Casa abandonada en medio de la montaña",132],["Ii2MNuCzJYs","Grabación sin título",106],["rYb_SDjP4P4","Grabación sin título",89],["yMbSelJ1nAY","Hotel abandonado",207],["jJwr7pRSzEo","Castillo espectacular",52],["RPuWGVVTrPs","Grabación sin título",33],["Jg-uwws5BVA","Almacén del geriátrico",42],["9nf25BcG-VU","Grabación sin título",19],["XLJpgrU8xXs","El final de la torre salvana",630],["DRzArK45aJ8","Exploración nocturna",82],["IOcQARck9zs","Carros embrujados",881],["SbDAktrMtbI","Pasillos del geriátrico abandonado",102],["YzArhvYIgKw","Grabación sin título",8],["y4G8hKwuBVI","Grabación sin título",17],["Z2yPMGSAmwA","Grabación sin título",6],["j4Y2Ebp-QNM","Grabación sin título",17],["2orxLigk73s","Grabación sin título",12],["KVWeRcPl8tc","Grabación sin título",566],["ZdqbKF1E8Fo","Grabación sin título",117],["QnmDhlhJB2g","Grabación sin título",7],["Wr_nMkXXVWw","Grabación sin título",9],["vljuuxF4UmQ","Grabación sin título",158],["RusHfAwU_XU","Grabación sin título",7],["mkSFFxkITFk","Grabación sin título",12],["sUgX4oqFxc4","Preparativos investigacion paranormal en la ermita",18],["lko1aOQb7p0","Preparativos investigacion paranormal en la ermita",5],["mHfYr1aZWys","Ente extraño captado en vídeo",11],["ZyLjzjqb0gA","Esta tarde 19:00… masía abandonada",16],["x2O3l1CpzeY","Entes captados la Puda d Montserrat",727],["wqvDDKspCKs","Próximamente… casa abandonada",146],["3DQVNtTuIF4","Cachorrillo",273],["hpVyL9V50rM","Noche de investigación paranormal",17],["snFtW8xrOkk","Almacén de medicamentos en geriátrico abandonado!",470],["tf2r2s1ej-w","Geriátrico residencia abandonada",66],["T3iyLzg4UYs","Visita de reconocimiento próxima investigación y vemos esto 😱😱😱😱😱",111],["TUEbH-7gzf0","Un lugar muy destruido",72],["_Y2-f477T4Y","Aterrizaje en el atardecer",112],["uRcNLFoY7k0","Visita nocturna",37],["SlUDphY1X2Y","Impresionante castillo",74],["BWUeseA6jkY","Castillo abandonado",40],["jH_bwX-RjM0","Actividad paranormal",37],["pwX4epEp_PU","Castell Can Jaumar",214],["gwjaq-4vJRI","Ermita maldita, nuevo vídeo en el canal",27],["e29gK04D5q0","Momento escalofriante en directo",124],["gRBhdtlYXt4","Ayúdanos a decidir nuestro próximo directo",27],["qQ0yxHsdH20","Grabación desde cámara de seguridad",25],["xrmowmKtDU4","Psicofonia (usar auriculares)",53]]</script>
+<!-- /auto:videos-datos -->
 
   <footer class="footer">
     <div class="container">
@@ -116,12 +406,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Enclave Paranormal. Documentación con fines investigativos.</p>
+        <p>© 2026 Enclave Paranormal. Documentación con fines investigativos.</p>
       </div>
     </div>
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/videos.js"></script>
   <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

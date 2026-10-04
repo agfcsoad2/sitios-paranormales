@@ -25,6 +25,15 @@ El script saca de YouTube la fecha, la duración y la descripción, la añade a
 Si no pasas los textos se rellenan con la descripción de YouTube. Repásalos en
 `data/investigaciones.json` y vuelve a generar la web.
 
+## Actualizar los vídeos cortos
+
+```bash
+python3 tools/actualizar_shorts.py
+```
+
+Descarga la lista de Shorts del canal (títulos sin hashtags y visualizaciones) a
+`data/shorts.json` y regenera `videos/index.html`. Ejecútalo cuando subas Shorts nuevos.
+
 ## Editar textos o datos existentes
 
 1. Cambia `data/investigaciones.json`. Los textos son HTML: un `&` suelto se escribe `&amp;`.
@@ -35,6 +44,7 @@ Si no pasas los textos se rellenan con la descripción de YouTube. Repásalos en
 - `index.html`: solo los bloques entre `<!-- auto:portada-… -->`.
 - `investigaciones/index.html`: solo los bloques `<!-- auto:videoteca-… -->`.
 - `investigaciones/<slug>.html`: la página entera. **No edites estas páginas a mano**: cambia la plantilla en `tools/build.py`.
+- `videos/index.html`: solo los bloques `<!-- auto:videos-… -->`, a partir de `data/shorts.json`.
 - `sitemap.xml`: añade las investigaciones que falten.
 
 Todo lo que está fuera de los marcadores `auto:` se puede editar a mano.

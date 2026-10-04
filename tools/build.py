@@ -5,6 +5,7 @@ Qué genera:
   - index.html                 → bloques <!-- auto:portada-* -->
   - investigaciones/index.html → bloques <!-- auto:videoteca-* -->
   - investigaciones/<slug>.html → la página completa de cada investigación
+  - videos/index.html          → bloques <!-- auto:videos-* --> (desde data/shorts.json)
   - sitemap.xml                → añade las URLs de investigaciones que falten
 
 Lo que queda fuera de los marcadores <!-- auto:... --> se puede editar a mano.
@@ -20,6 +21,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data' / 'investigaciones.json'
+SHORTS = ROOT / 'data' / 'shorts.json'
+SHORTS_INICIALES = 24   # cámaras que se pintan en el HTML; el resto las añade js/videos.js
 SITE = 'https://enclaveparanormal.com'
 LOGO = ('https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4Ch'
         'shPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj')
@@ -354,6 +357,61 @@ def build_fichas(items, changed):
                          ficha(it, newer, older, len(items), nav, footer), changed)
 
 
+# ---------- vídeos cortos ----------
+
+def vistas(n):
+    """1400 → '1,4K', 8000 → '8K', 245 → '245'."""
+    if n < 1000:
+        return str(n)
+    if n < 1_000_000:
+        v, suf = n / 1000, 'K'
+    else:
+        v, suf = n / 1_000_000, 'M'
+    txt = f'{v:.1f}'.rstrip('0').rstrip('.') if v < 100 else f'{v:.0f}'
+    return txt.replace('.', ',') + suf
+
+
+def camara(sh, num):
+    t = htmllib.escape(sh['titulo'], quote=True)
+    return f'''        <a class="cam" href="https://www.youtube.com/shorts/{sh['id']}" data-id="{sh['id']}" target="_blank" rel="noopener">
+          <div class="cam-screen">
+            <img src="https://i.ytimg.com/vi/{sh['id']}/oar2.jpg" alt="" loading="lazy" width="270" height="480" />
+            <span class="osd tape-osd tl">Cam {num:03d}</span>
+            <span class="osd tape-osd tr">● Rec</span>
+            <span class="osd tape-osd bl">▶ Play</span>
+            <span class="osd tape-osd br">{vistas(sh['vistas'])}</span>
+            <span class="cam-play" aria-hidden="true">▶</span>
+          </div>
+          <p class="cam-title">{t}</p>
+        </a>'''
+
+
+def build_videos(changed):
+    if not SHORTS.exists():
+        return
+    shorts = json.loads(SHORTS.read_text(encoding='utf-8'))
+    n = len(shorts)
+    path = ROOT / 'videos' / 'index.html'
+    html = path.read_text(encoding='utf-8')
+    top = sorted(shorts, key=lambda s: -s['vistas'])
+    mosaico = ''.join(f'<div style="background-image:url(\'https://i.ytimg.com/vi/{s["id"]}/oar2.jpg\')"></div>'
+                      for s in top[:8])
+    html = replace_block(html, 'videos-mosaico', f'    <div class="vt-hero-bg" aria-hidden="true">{mosaico}</div>\n')
+    html = replace_block(html, 'videos-display', f'''      <div class="vcr-display" aria-label="Resumen de la sala">
+        <p class="vcr-stat">{n}<small>Cámaras</small></p>
+        <p class="vcr-stat">{vistas(sum(s['vistas'] for s in shorts))}<small>Visualizaciones</small></p>
+        <p class="vcr-stat red">● Rec<small>Grabando</small></p>
+      </div>
+''')
+    html = replace_block(html, 'videos-camaras',
+                         '\n'.join(camara(s, n - i) for i, s in enumerate(shorts[:SHORTS_INICIALES])) + '\n')
+    datos = json.dumps([[s['id'], s['titulo'], s['vistas']] for s in shorts], ensure_ascii=False, separators=(',', ':'))
+    datos = datos.replace('</', '<\\/')
+    html = replace_block(html, 'videos-datos',
+                         f'  <script type="application/json" id="shortsData" data-inicial="{SHORTS_INICIALES}">{datos}</script>\n')
+    write_if_changed(path, html, changed)
+
+
 # ---------- sitemap ----------
 
 def build_sitemap(items, changed):
@@ -381,6 +439,7 @@ def main():
     build_portada(items, changed)       # primero: las fichas copian su nav/footer
     build_videoteca(items, changed)
     build_fichas(items, changed)
+    build_videos(changed)
     build_sitemap(items, changed)
     print(f'{len(items)} investigaciones.', 'Archivos cambiados:' if changed else 'Sin cambios.')
     for c in changed:
