@@ -45,6 +45,7 @@ Descarga la lista de Shorts del canal (títulos sin hashtags y visualizaciones) 
 - `investigaciones/index.html`: solo los bloques `<!-- auto:videoteca-… -->`.
 - `investigaciones/<slug>.html`: la página entera. **No edites estas páginas a mano**: cambia la plantilla en `tools/build.py`.
 - `videos/index.html`: solo los bloques `<!-- auto:videos-… -->`, a partir de `data/shorts.json`.
+- `nosotros/index.html`: solo el bloque `<!-- auto:nosotros-datos -->` (contadores del canal).
 - `sitemap.xml`: añade las investigaciones que falten.
 
 Todo lo que está fuera de los marcadores `auto:` se puede editar a mano.

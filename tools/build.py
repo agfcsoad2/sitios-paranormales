@@ -6,6 +6,7 @@ Qué genera:
   - investigaciones/index.html → bloques <!-- auto:videoteca-* -->
   - investigaciones/<slug>.html → la página completa de cada investigación
   - videos/index.html          → bloques <!-- auto:videos-* --> (desde data/shorts.json)
+  - nosotros/index.html        → bloque <!-- auto:nosotros-datos --> (contadores)
   - sitemap.xml                → añade las URLs de investigaciones que falten
 
 Lo que queda fuera de los marcadores <!-- auto:... --> se puede editar a mano.
@@ -412,6 +413,26 @@ def build_videos(changed):
     write_if_changed(path, html, changed)
 
 
+# ---------- quiénes somos ----------
+
+def build_nosotros(items, changed):
+    path = ROOT / 'nosotros' / 'index.html'
+    if not path.exists():
+        return
+    html = path.read_text(encoding='utf-8')
+    total = sum(seconds(i['duracion']) for i in items)
+    n_shorts = len(json.loads(SHORTS.read_text(encoding='utf-8'))) if SHORTS.exists() else 0
+    primera = min(i['fecha'][:4] for i in items)
+    html = replace_block(html, 'nosotros-datos', f'''      <div class="vcr-display" aria-label="El canal en cifras">
+        <p class="vcr-stat">{len(items):02d}<small>Investigaciones</small></p>
+        <p class="vcr-stat">{total // 3600}H{(total // 60) % 60:02d}M<small>Grabación</small></p>
+        <p class="vcr-stat">{n_shorts}<small>Vídeos cortos</small></p>
+        <p class="vcr-stat">{primera}<small>Primera cinta</small></p>
+      </div>
+''')
+    write_if_changed(path, html, changed)
+
+
 # ---------- sitemap ----------
 
 def build_sitemap(items, changed):
@@ -440,6 +461,7 @@ def main():
     build_videoteca(items, changed)
     build_fichas(items, changed)
     build_videos(changed)
+    build_nosotros(items, changed)
     build_sitemap(items, changed)
     print(f'{len(items)} investigaciones.', 'Archivos cambiados:' if changed else 'Sin cambios.')
     for c in changed:

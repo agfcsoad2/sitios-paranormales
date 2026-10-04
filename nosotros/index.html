@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>¿Quiénes Somos? — Enclave Paranormal</title>
-  <meta name="description" content="Conoce al equipo de Enclave Paranormal. Investigadores apasionados por documentar fenómenos inexplicables en España y Latinoamérica." />
+  <meta name="description" content="Enclave Paranormal investiga lugares abandonados reales de Cataluña y España: psicofonías, K2, REM-Pod y grabadora de voz. Sin manipulaciones: lo que ves es lo que vivimos." />
   <meta name="keywords" content="Enclave Paranormal equipo, investigadores paranormales, quienes somos paranormal" />
   <meta name="author" content="Enclave Paranormal" />
   <meta name="robots" content="index, follow" />
@@ -13,7 +13,7 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="¿Quiénes Somos? — Enclave Paranormal" />
-  <meta property="og:description" content="Conoce al equipo de Enclave Paranormal. Investigadores apasionados por documentar fenómenos inexplicables en España y Latinoamérica." />
+  <meta property="og:description" content="Enclave Paranormal investiga lugares abandonados reales de Cataluña y España: psicofonías, K2, REM-Pod y grabadora de voz. Sin manipulaciones: lo que ves es lo que vivimos." />
   <meta property="og:url" content="https://enclaveparanormal.com/nosotros/" />
   <meta property="og:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
   <meta property="og:site_name" content="Enclave Paranormal" />
@@ -22,70 +22,134 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="¿Quiénes Somos? — Enclave Paranormal" />
-  <meta name="twitter:description" content="Conoce al equipo de Enclave Paranormal. Investigadores apasionados por documentar fenómenos inexplicables en España y Latinoamérica." />
+  <meta name="twitter:description" content="Enclave Paranormal investiga lugares abandonados reales de Cataluña y España: psicofonías, K2, REM-Pod y grabadora de voz. Sin manipulaciones: lo que ves es lo que vivimos." />
   <meta name="twitter:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+  <link rel="stylesheet" href="/css/investigaciones.css" />
+  <link rel="stylesheet" href="/css/paginas.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body class="home">
 
-  <nav class="nav scrolled" id="nav">
+  <canvas class="vhs-noise" id="vhsNoise" aria-hidden="true"></canvas>
+
+  <nav class="nav" id="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="/"><img src="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" alt="Enclave Paranormal" class="footer-logo-img"/> Enclave Paranormal</a>
       <ul class="nav-links" id="navLinks">
         <li><a href="/investigaciones/">Investigaciones</a></li>
         <li><a href="/videos/">Vídeos cortos</a></li>
         <li><a href="/spiritpet/">SpiritPet</a></li>
-        <li><a href="/nosotros/" style="color:#a855f7">¿Quiénes somos?</a></li>
+        <li><a href="/nosotros/" aria-current="page" style="color:#a855f7">¿Quiénes somos?</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
     </div>
   </nav>
 
-  <div class="page-hero">
-    <div class="page-hero-bg"></div>
-    <div class="page-hero-content">
-      <a href="/" class="back-link">← Volver al inicio</a>
-      <p class="section-tag">El equipo</p>
-      <h1 class="page-title">¿Quiénes somos?</h1>
-      <p class="page-sub">Un equipo apasionado por lo desconocido, comprometido con la documentación rigurosa de fenómenos inexplicables.</p>
-    </div>
-  </div>
-
-  <section class="section">
-    <div class="container">
-      <div class="social-grid">
-
-        <a href="https://www.youtube.com/channel/UC5ooPVBZplLiqx4PbtVxVrw" target="_blank" rel="noopener" class="social-card social-yt">
-          <div class="social-icon">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40">
-              <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/>
-            </svg>
-          </div>
-          <div class="social-info">
-            <h3>YouTube</h3>
-            <p>@EnclaveParanormal</p>
-            <span class="social-cta">Ver canal →</span>
-          </div>
-        </a>
-
-        <a href="https://www.instagram.com/enclave.paranormal" target="_blank" rel="noopener" class="social-card social-ig">
-          <div class="social-icon">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40">
-              <path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.3 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.3 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9C.3 21.3 2.7 23.7 7.1 23.9 8.3 24 8.7 24 12 24s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9C23.7 2.7 21.3.3 16.9.1 15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/>
-            </svg>
-          </div>
-          <div class="social-info">
-            <h3>Instagram</h3>
-            <p>@enclave.paranormal</p>
-            <span class="social-cta">Ver perfil →</span>
-          </div>
-        </a>
-
+  <header class="vt-hero">
+    <div class="scanlines"></div>
+    <div class="vt-hero-inner">
+      <a href="/" class="osd vt-back">◀◀ Rebobinar al inicio</a>
+      <p class="osd vt-kicker"><span class="rec-dot"></span>Expediente del equipo</p>
+      <h1 class="vt-title">¿Quiénes somos?</h1>
+      <p class="vt-sub">Un canal de investigación paranormal real. Exploramos lugares abandonados, balnearios, edificios históricos y espacios cargados de historia en Cataluña y España.</p>
+<!-- auto:nosotros-datos -->
+      <div class="vcr-display" aria-label="El canal en cifras">
+        <p class="vcr-stat">18<small>Investigaciones</small></p>
+        <p class="vcr-stat">7H37M<small>Grabación</small></p>
+        <p class="vcr-stat">349<small>Vídeos cortos</small></p>
+        <p class="vcr-stat">2023<small>Primera cinta</small></p>
       </div>
+<!-- /auto:nosotros-datos -->
     </div>
+  </header>
+
+  <section class="ns-manifesto">
+    <div class="scanlines"></div>
+    <blockquote>Sin manipulaciones. Lo que ves es exactamente lo que vivimos.</blockquote>
+    <cite class="osd">— Enclave Paranormal</cite>
   </section>
+
+  <main>
+    <section class="pg-section">
+      <div class="container">
+        <div class="pg-head">
+          <p class="osd pg-kicker">▶ Lo que hacemos</p>
+          <h2 class="pg-title">Cada noche, un lugar distinto</h2>
+        </div>
+        <div class="pg-cards">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🏚️</div>
+          <h3>Lugares abandonados reales</h3>
+          <p>Balnearios, sanatorios, masías, hoteles y caserones de Cataluña y España, con su historia documentada.</p>
+        </div>
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🎙️</div>
+          <h3>Psicofonías en directo</h3>
+          <p>Sesiones con grabadora y spirit box en las que buscamos respuestas directas, captadas en el momento.</p>
+        </div>
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🔦</div>
+          <h3>Exploración urbana</h3>
+          <p>Urbex con respeto: recorremos y mostramos cada lugar tal y como está, sin tocar ni llevarnos nada.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pg-section">
+      <div class="container">
+        <div class="pg-head">
+          <p class="osd pg-kicker">● Equipo técnico</p>
+          <h2 class="pg-title">Con qué registramos</h2>
+          <p class="pg-sub">El audio se publica sin procesar más allá de la normalización.</p>
+        </div>
+        <div class="ns-rack">
+        <div class="ns-device">
+          <div class="ns-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div><h3 class="osd">K2</h3><p>Medidor de campos electromagnéticos. Sus luces reaccionan a picos de energía sin una fuente aparente.</p></div>
+        </div>
+        <div class="ns-device">
+          <div class="ns-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div><h3 class="osd">REM-Pod</h3><p>Detector que genera su propio campo y avisa con luces y sonido cuando algo lo atraviesa.</p></div>
+        </div>
+        <div class="ns-device">
+          <div class="ns-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div><h3 class="osd">Grabadora de voz</h3><p>La herramienta clave para las psicofonías: voces que no se oyen en el momento y aparecen al revisar el audio.</p></div>
+        </div>
+        <div class="ns-device">
+          <div class="ns-meter" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div><h3 class="osd">Spirit box</h3><p>Barre frecuencias de radio a gran velocidad. Con el método Estes, el receptor no oye las preguntas.</p></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pg-section">
+      <div class="container">
+        <div class="pg-head">
+          <p class="osd pg-kicker">⏏ Canales</p>
+          <h2 class="pg-title">Síguenos</h2>
+        </div>
+        <div class="ns-social">
+          <a class="ns-channel" href="https://www.youtube.com/@enclaveparanormal" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+            <span><span class="osd ch-num">CH 01</span><span class="ch-name">YouTube</span><span class="ch-handle">@enclaveparanormal</span></span>
+          </a>
+          <a class="ns-channel" href="https://www.instagram.com/enclave.paranormal" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"> <path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.3 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.3 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9C.3 21.3 2.7 23.7 7.1 23.9 8.3 24 8.7 24 12 24s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9C23.7 2.7 21.3.3 16.9.1 15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/> </svg>
+            <span><span class="osd ch-num">CH 02</span><span class="ch-name">Instagram</span><span class="ch-handle">@enclave.paranormal</span></span>
+          </a>
+          <a class="ns-channel" href="https://www.tiktok.com/@enclave.paranormal" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 0h-3.9v16.4a3.4 3.4 0 1 1-3.4-3.4c.3 0 .7 0 1 .1V9.1a7.4 7.4 0 1 0 6.3 7.3V8.1a9.5 9.5 0 0 0 5.4 1.7V5.9A5.5 5.5 0 0 1 16.6 0z"/></svg>
+            <span><span class="osd ch-num">CH 03</span><span class="ch-name">TikTok</span><span class="ch-handle">@enclave.paranormal</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -103,12 +167,13 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Enclave Paranormal. Documentación con fines investigativos.</p>
+        <p>© 2026 Enclave Paranormal. Documentación con fines investigativos.</p>
       </div>
     </div>
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
   <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

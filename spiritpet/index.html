@@ -25,112 +25,146 @@
   <meta name="twitter:description" content="Adopta un espíritu del más allá. Tamagotchi paranormal gratis." />
   <meta name="twitter:image" content="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+  <link rel="stylesheet" href="/css/investigaciones.css" />
+  <link rel="stylesheet" href="/css/paginas.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-  <style>
-    .sp-cta-wrap { text-align: center; margin: 2.5rem 0; }
-    .sp-cta {
-      display: inline-block;
-      padding: 1.1rem 2.6rem;
-      background: linear-gradient(135deg, #7a4dff 0%, #a855f7 100%);
-      color: #fff;
-      font-family: 'Cinzel', serif;
-      font-size: 1.25rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      text-decoration: none;
-      border-radius: 999px;
-      box-shadow: 0 0 30px rgba(168, 85, 247, 0.4), 0 8px 24px rgba(0,0,0,0.4);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .sp-cta:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 0 50px rgba(168, 85, 247, 0.6), 0 12px 32px rgba(0,0,0,0.5);
-    }
-    .sp-cta-note { display:block; margin-top: 1rem; font-size: 0.9rem; color: #888; }
-    .sp-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
-    .sp-feature { background: rgba(255,255,255,0.03); border: 1px solid rgba(168,85,247,0.2); border-radius: 14px; padding: 1.4rem; }
-    .sp-feature h3 { font-family: 'Cinzel', serif; color: #d8b4fe; margin: 0 0 0.5rem; font-size: 1.05rem; letter-spacing: 0.05em; }
-    .sp-feature p { color: #b8b8b8; line-height: 1.55; margin: 0; font-size: 0.95rem; }
-    .sp-install { background: rgba(122,77,255,0.07); border: 1px solid rgba(168,85,247,0.25); border-radius: 16px; padding: 1.8rem; margin-top: 2rem; }
-    .sp-install h2 { font-family: 'Cinzel', serif; color: #d8b4fe; margin-top: 0; letter-spacing: 0.06em; }
-    .sp-install ul { padding-left: 1.2rem; line-height: 1.8; color: #c8c8c8; }
-    .sp-install strong { color: #e9d5ff; }
-    .sp-ghost { font-size: 4rem; text-align: center; margin: 0.5rem 0 0; filter: drop-shadow(0 0 30px rgba(168,85,247,0.6)); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body class="home">
 
-  <nav class="nav scrolled" id="nav">
+  <canvas class="vhs-noise" id="vhsNoise" aria-hidden="true"></canvas>
+
+  <nav class="nav" id="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="/"><img src="https://yt3.googleusercontent.com/QkF6NLkCisTSMB9xesJVk0rK1WkPb946Tt2teUr1M8O4ChshPeTQmF3qxEk9lDnYr8vkLKXUaA=s200-c-k-c0x00ffffff-no-rj" alt="Enclave Paranormal" class="footer-logo-img"/> Enclave Paranormal</a>
       <ul class="nav-links" id="navLinks">
         <li><a href="/investigaciones/">Investigaciones</a></li>
         <li><a href="/videos/">Vídeos cortos</a></li>
-        <li><a href="/spiritpet/" style="color:#a855f7">SpiritPet</a></li>
+        <li><a href="/spiritpet/" aria-current="page" style="color:#a855f7">SpiritPet</a></li>
         <li><a href="/nosotros/">¿Quiénes somos?</a></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
     </div>
   </nav>
 
-  <div class="page-hero">
-    <div class="page-hero-bg"></div>
-    <div class="page-hero-content">
-      <a href="/" class="back-link">← Volver al inicio</a>
-      <p class="section-tag">Juego paranormal</p>
-      <h1 class="page-title">SpiritPet</h1>
-      <p class="sp-ghost">👻</p>
-      <p class="page-sub">Adopta un espíritu del más allá. Cuídalo, juega mini-juegos paranormales y decora su sanctum. Un tamagotchi para quienes quieren compañía sin compromiso real.</p>
-    </div>
-  </div>
-
-  <section class="section">
-    <div class="container" style="max-width: 900px;">
-
-      <div class="sp-cta-wrap">
-        <a href="https://spiritpet.vercel.app" target="_blank" rel="noopener" class="sp-cta">Jugar ahora →</a>
-        <span class="sp-cta-note">Gratis · sin registro · funciona en móvil y ordenador</span>
+  <header class="vt-hero sp-hero">
+    <div class="scanlines"></div>
+    <div class="vt-hero-inner">
+      <div>
+        <a href="/" class="osd vt-back">◀◀ Rebobinar al inicio</a>
+        <p class="osd vt-kicker"><span class="rec-dot"></span>Juego paranormal · Cartucho 01</p>
+        <h1 class="vt-title">SpiritPet</h1>
+        <p class="vt-sub">Adopta un espíritu del más allá. Cuídalo, juega mini-juegos paranormales y decora su sanctum. Un tamagotchi para quienes quieren compañía sin compromiso real.</p>
+        <div class="sp-actions">
+          <a href="https://spiritpet.vercel.app" target="_blank" rel="noopener" class="btn-vhs">▶ Jugar ahora</a>
+          <span class="sp-note">Gratis · sin registro · móvil y ordenador</span>
+        </div>
       </div>
+      <a class="sp-console" href="https://spiritpet.vercel.app" target="_blank" rel="noopener" aria-label="Jugar a SpiritPet">
+        <div class="crt-frame">
+          <div class="crt-bar" aria-hidden="true">
+            <span class="osd">1P · SpiritPet</span>
+            <span class="osd"><span class="rec-dot"></span>On</span>
+          </div>
+          <div class="sp-screen">
+            <span class="sp-star s1" aria-hidden="true">✦</span>
+            <span class="sp-star s2" aria-hidden="true">✦</span>
+            <span class="sp-star s3" aria-hidden="true">✦</span>
+            <svg class="sp-ghost" viewBox="0 0 200 200" aria-hidden="true">
+            <g fill="#f3efff">
+              <circle cx="100" cy="88" r="62"/>
+              <rect x="38" y="88" width="124" height="52"/>
+              <circle cx="54" cy="140" r="17"/><circle cx="85" cy="142" r="17"/><circle cx="116" cy="142" r="17"/><circle cx="147" cy="140" r="17"/>
+            </g>
+            <g class="eyes" fill="#14082a">
+              <ellipse cx="78" cy="92" rx="9" ry="12"/><ellipse cx="122" cy="92" rx="9" ry="12"/>
+              <circle cx="75" cy="87" r="3.2" fill="#fff"/><circle cx="119" cy="87" r="3.2" fill="#fff"/>
+            </g>
+            <path d="M88 116 q12 14 24 0 z" fill="#14082a"/>
+          </svg>
+            <span class="osd sp-press" aria-hidden="true">Press start</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </header>
 
-      <div class="sp-features">
-        <div class="sp-feature">
+  <main>
+    <section class="pg-section" style="padding-top:72px">
+      <div class="container">
+        <div class="pg-head">
+          <p class="osd pg-kicker">▶ Manual de instrucciones</p>
+          <h2 class="pg-title">Qué puedes hacer</h2>
+        </div>
+        <div class="pg-cards">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">👻</div>
           <h3>Fantasma con personalidad</h3>
           <p>Evoluciona por edad en 4 etapas. Estados de ánimo reales: feliz, triste, enamorado, sorpresa, enfado.</p>
         </div>
-        <div class="sp-feature">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🎮</div>
           <h3>5 mini-juegos</h3>
           <p>Mini-Pong, Memoria, Caza-orbes, Tarot y Reflejos. Dificultad progresiva según la edad del espíritu.</p>
         </div>
-        <div class="sp-feature">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🛒</div>
           <h3>Tienda etérea</h3>
           <p>9 sombreros, 6 auras, 6 fondos, 8 muebles y 6 decoraciones para personalizar el sanctum.</p>
         </div>
-        <div class="sp-feature">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🌙</div>
           <h3>Ciclo día/noche</h3>
           <p>El mundo del espíritu cambia con la hora real de tu dispositivo. Las noches son distintas.</p>
         </div>
-        <div class="sp-feature">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">📲</div>
           <h3>Instalable como app</h3>
           <p>Funciona offline, sin login, sin anuncios. Tu progreso se guarda en el dispositivo.</p>
         </div>
-        <div class="sp-feature">
+        <div class="pg-card">
+          <div class="pg-card-icon" aria-hidden="true">🔔</div>
           <h3>Notificaciones</h3>
           <p>El espíritu te avisa cuando necesita comida, juegos o limpieza. Opcional, las puedes desactivar.</p>
         </div>
+        </div>
       </div>
+    </section>
 
-      <div class="sp-install">
-        <h2>Cómo instalarlo como app</h2>
-        <ul>
-          <li><strong>iPhone (Safari):</strong> pulsa el botón Compartir <span style="font-family:monospace">⎙</span> → <em>"Añadir a pantalla de inicio"</em>.</li>
-          <li><strong>Android (Chrome):</strong> aparecerá un banner <em>"Instalar"</em> automáticamente. Si no, menú ⋮ → <em>"Instalar app"</em>.</li>
-          <li><strong>Ordenador (Chrome/Edge):</strong> icono de instalación en la barra de direcciones, o menú → <em>"Instalar SpiritPet"</em>.</li>
-        </ul>
-        <p style="margin-bottom:0; color:#a8a8a8; font-size:0.92rem;">Una vez instalado, aparecerá como cualquier otra app y funcionará sin conexión.</p>
+    <section class="pg-section">
+      <div class="container">
+        <div class="pg-head">
+          <p class="osd pg-kicker">⏏ Instalación</p>
+          <h2 class="pg-title">Llévatelo como app</h2>
+          <p class="pg-sub">Una vez instalado aparece como cualquier otra app y funciona sin conexión.</p>
+        </div>
+        <div class="sp-install">
+          <div class="sp-device">
+            <h3 class="osd">iPhone</h3>
+            <p>En Safari, pulsa el botón Compartir y elige <em>“Añadir a pantalla de inicio”</em>.</p>
+          </div>
+          <div class="sp-device">
+            <h3 class="osd">Android</h3>
+            <p>Chrome muestra un aviso <em>“Instalar”</em>. Si no aparece: menú ⋮ → <em>“Instalar app”</em>.</p>
+          </div>
+          <div class="sp-device">
+            <h3 class="osd">Ordenador</h3>
+            <p>En Chrome o Edge, icono de instalación en la barra de direcciones, o menú → <em>“Instalar SpiritPet”</em>.</p>
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
 
+  <section class="eject">
+    <div class="scanlines"></div>
+    <p class="osd eject-osd">● Insert coin</p>
+    <h2>Tu espíritu te está esperando</h2>
+    <p>Gratis, sin anuncios y sin registro. Ábrelo en el móvil y adóptalo en segundos.</p>
+    <div class="tape-actions">
+      <a href="https://spiritpet.vercel.app" class="btn-vhs" target="_blank" rel="noopener">▶ Jugar ahora</a>
+      <a href="/investigaciones/" class="btn-vhs ghost">Ver investigaciones</a>
     </div>
   </section>
 
@@ -150,12 +184,13 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Enclave Paranormal. Documentación con fines investigativos.</p>
+        <p>© 2026 Enclave Paranormal. Documentación con fines investigativos.</p>
       </div>
     </div>
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
   <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
