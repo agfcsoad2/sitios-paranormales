@@ -101,11 +101,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://enclaveparanormal.com/historias/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://enclaveparanormal.com/videos/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
