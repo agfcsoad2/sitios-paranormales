@@ -28,7 +28,8 @@
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/home.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=UnifrakturMaguntia&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/navidad.css" />
 </head>
 <body class="home">
 
@@ -72,11 +73,27 @@
 
   <div class="ident" aria-hidden="true">
     <div class="ident-track">
-      <span><em>●</em> Enclave Paranormal</span><span>Los lugares donde lo inexplicable existe</span><span><em>●</em> Grabado en lugares reales</span><span>Psicofonías · Spirit box · Urbex nocturno</span><span><em>●</em> Enclave Paranormal</span><span>Los lugares donde lo inexplicable existe</span><span><em>●</em> Grabado en lugares reales</span><span>Psicofonías · Spirit box · Urbex nocturno</span>
+      <span><em>❄</em> Enclave Paranormal</span><span>Noches de Adviento</span><span><em>●</em> Grabado en lugares reales</span><span>Lo que se esconde bajo la nieve</span><span><em>❄</em> Psicofonías · Spirit box · Urbex nocturno</span><span>Esta Navidad, no apagues todas las luces</span><span><em>❄</em> Enclave Paranormal</span><span>Noches de Adviento</span><span><em>●</em> Grabado en lugares reales</span><span>Lo que se esconde bajo la nieve</span><span><em>❄</em> Psicofonías · Spirit box · Urbex nocturno</span><span>Esta Navidad, no apagues todas las luces</span>
     </div>
   </div>
 
   <main>
+    <section class="advent" id="adviento" aria-labelledby="adventTitle">
+      <div class="container">
+        <div class="advent-head">
+          <div>
+            <p class="osd advent-kicker">✦ Especial de Navidad · 24 noches</p>
+            <h2 class="advent-title" id="adventTitle">Calendario de Adviento maldito</h2>
+            <span class="advent-count" id="adventCount"></span>
+          </div>
+          <p class="advent-sub">Cada noche de diciembre se abre una puerta con una leyenda oscura de la Navidad: Krampus, el Gato de Yule, las noches en que los muertos vuelven a casa… y una cinta del archivo para verla con las luces apagadas.</p>
+        </div>
+        <div class="advent-grid" id="adventGrid">
+          <noscript><p class="archive-sub">Activa JavaScript para abrir las puertas del calendario.</p></noscript>
+        </div>
+      </div>
+      <dialog class="legend-dialog" id="legendDialog" aria-label="Leyenda del calendario de Adviento"></dialog>
+    </section>
     <section class="archive" id="archivo">
       <div class="container">
         <div class="archive-head">
@@ -376,12 +393,14 @@
       </div>
       <div class="footer-bottom">
         <p>© 2026 Enclave Paranormal. Documentación con fines investigativos.</p>
+        <p class="footer-xmas">❄ Felices fiestas desde el otro lado</p>
       </div>
     </div>
   </footer>
 
   <script src="/js/main.js"></script>
   <script src="/js/home.js"></script>
+  <script src="/js/navidad.js"></script>
   <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

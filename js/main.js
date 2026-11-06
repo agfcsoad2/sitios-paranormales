@@ -38,7 +38,7 @@ document.getElementById('reportForm')?.addEventListener('submit', e => {
   btn.disabled = true;
   setTimeout(() => {
     btn.textContent = '✓ Reporte recibido';
-    btn.style.background = '#10b981';
+    btn.style.background = '#2f8f62';
     e.target.reset();
   }, 1200);
 });

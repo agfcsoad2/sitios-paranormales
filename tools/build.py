@@ -275,7 +275,8 @@ def ficha(it, newer, older, n, nav, footer):
   <link rel="stylesheet" href="/css/home.css" />
   <link rel="stylesheet" href="/css/investigaciones.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=VT323&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500&family=UnifrakturMaguntia&family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/navidad.css" />
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
 <body class="home">
@@ -345,6 +346,7 @@ def ficha(it, newer, older, n, nav, footer):
 
   <script src="/js/main.js"></script>
   <script src="/js/home.js"></script>
+  <script src="/js/navidad.js"></script>
   <script data-goatcounter="https://enclaveparanormal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
@@ -355,7 +357,7 @@ def build_fichas(items, changed):
     home = (ROOT / 'index.html').read_text(encoding='utf-8')
     nav = home[home.index('  <nav'):home.index('</nav>') + 6].replace(
         '<li><a href="/investigaciones/">',
-        '<li><a href="/investigaciones/" aria-current="page" style="color:#a855f7">')
+        '<li><a href="/investigaciones/" aria-current="page" style="color:#e23a4a">')
     footer = home[home.index('  <footer'):home.index('</footer>') + 9]
     for i, it in enumerate(items):
         newer = items[i - 1] if i > 0 else None

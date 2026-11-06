@@ -2,12 +2,12 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:           #07070f;
-  --bg2:          #0d0d1a;
-  --bg3:          #111122;
-  --purple:       #7c3aed;
-  --purple-light: #a855f7;
-  --green:        #10b981;
+  --bg:           #040708;
+  --bg2:          #08100e;
+  --bg3:          #0c1613;
+  --purple:       #a31228;
+  --purple-light: #e23a4a;
+  --green:        #2f8f62;
   --text:         #e2e8f0;
   --text-muted:   #94a3b8;
   --border:       rgba(255,255,255,0.08);
@@ -42,12 +42,12 @@ a { color: inherit; text-decoration: none; }
   top: 0; left: 0; right: 0;
   z-index: 100;
   padding: 0 24px;
-  background: rgba(7,7,15,0.7);
+  background: rgba(4,7,8,0.7);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
   transition: background 0.3s;
 }
-.nav.scrolled { background: rgba(7,7,15,0.97); }
+.nav.scrolled { background: rgba(4,7,8,0.97); }
 
 .nav-inner {
   max-width: 1200px;
@@ -114,8 +114,8 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(124,58,237,0.25) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(16,185,129,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(163,18,40,0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(47,143,98,0.08) 0%, transparent 60%),
     var(--bg);
 }
 
@@ -123,7 +123,7 @@ a { color: inherit; text-decoration: none; }
 .particle {
   position: absolute;
   border-radius: 50%;
-  background: rgba(168,85,247,0.6);
+  background: rgba(226,58,74,0.6);
   animation: floatUp linear infinite;
 }
 @keyframes floatUp {
@@ -146,7 +146,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--purple-light);
-  border: 1px solid rgba(168,85,247,0.3);
+  border: 1px solid rgba(226,58,74,0.3);
   padding: 6px 14px;
   border-radius: 20px;
   margin-bottom: 24px;
@@ -161,7 +161,7 @@ a { color: inherit; text-decoration: none; }
 }
 .glow {
   color: var(--purple-light);
-  text-shadow: 0 0 40px rgba(168,85,247,0.7);
+  text-shadow: 0 0 40px rgba(226,58,74,0.7);
 }
 
 .hero-sub {
@@ -264,7 +264,7 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 60% at 50% 0%, rgba(124,58,237,0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 70% 60% at 50% 0%, rgba(163,18,40,0.2) 0%, transparent 70%),
     var(--bg2);
 }
 .page-hero-content { position: relative; z-index: 1; }
@@ -307,7 +307,7 @@ a { color: inherit; text-decoration: none; }
   cursor: pointer;
 }
 .inv-list-card:hover {
-  border-color: rgba(168,85,247,0.5);
+  border-color: rgba(226,58,74,0.5);
   transform: translateY(-5px);
 }
 
@@ -336,7 +336,7 @@ a { color: inherit; text-decoration: none; }
   color: rgba(255,255,255,0.85);
   transition: background 0.2s;
 }
-.inv-list-card:hover .inv-list-play { background: rgba(124,58,237,0.5); }
+.inv-list-card:hover .inv-list-play { background: rgba(163,18,40,0.5); }
 
 .inv-list-info { padding: 24px; }
 .inv-list-meta { margin-bottom: 10px; }
@@ -367,7 +367,7 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 80% at 30% 50%, rgba(124,58,237,0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 70% 80% at 30% 50%, rgba(163,18,40,0.18) 0%, transparent 70%),
     var(--bg2);
 }
 .inv-detail-content {
@@ -466,7 +466,7 @@ a { color: inherit; text-decoration: none; }
   transition: border-color 0.2s, transform 0.2s;
 }
 .inv-card:hover {
-  border-color: rgba(168,85,247,0.4);
+  border-color: rgba(226,58,74,0.4);
   transform: translateY(-4px);
 }
 
@@ -485,8 +485,8 @@ a { color: inherit; text-decoration: none; }
 .inv-tag {
   font-size: 11px;
   color: var(--purple-light);
-  background: rgba(168,85,247,0.1);
-  border: 1px solid rgba(168,85,247,0.2);
+  background: rgba(226,58,74,0.1);
+  border: 1px solid rgba(226,58,74,0.2);
   padding: 3px 10px;
   border-radius: 20px;
 }
@@ -664,7 +664,7 @@ a { color: inherit; text-decoration: none; }
     flex-direction: column;
     position: fixed;
     top: 64px; left: 0; right: 0;
-    background: rgba(7,7,15,0.97);
+    background: rgba(4,7,8,0.97);
     padding: 24px;
     border-bottom: 1px solid var(--border);
     gap: 20px;
